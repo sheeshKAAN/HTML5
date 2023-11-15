@@ -251,8 +251,10 @@ As seen in the example, the href attribute is used to determine the address to g
 # Target Attribute in HTML
 Apart from href, there is also a target attribute. With this attribute, we determine how the connection will be opened. It has to take one of the following as the value;
 
-```_self``` - this is the default value, it opens in the current page. 
+```_self``` - this is the default value, it opens in the current page.
+ 
 ```_blank``` - opens the link in a new page. 
+
 ```iframeName``` - opens the link within the specified iframe.
 
 **Example:**
