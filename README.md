@@ -46,7 +46,7 @@ That is, they are defined as ```<tagName>```. Additionally, opened tags are clos
 That is, it is defined as ```<tagName> .. </tagName>```. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
 You will understand and learn their distinction better in the following lessons, but to give a few examples of tags that cannot be closed, ```<img> <br> <hr> <meta>``` etc. we can say
 
-**Examples**
+**Examples:**
 ```html
 <p> paragraph </p>
 ```
@@ -59,7 +59,13 @@ You will understand and learn their distinction better in the following lessons,
 # Attribute Structure in HTML
 After creating the tags, it is necessary to examine the use of the attributes that make up the tags. You can think of attributes as the directives of tags. In other words, we define certain attributes to make the tag more functional. After opening the tag, we define the attribute as **key="value"**.
 
-**Example**
+**Example:**
 ```html
 <meta charset="UTF-8">
+```
+This example is both a self-closing label type and a combined label example, with the character set as the key and the UTF-8 value as the value. While some existing keys and values ​​represent certain things, some existing values ​​may be in an expression that you specify.
+
+**Example:**
+```html
+<meta content="description" content="açıklama..">
 ```
