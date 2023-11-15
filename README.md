@@ -232,6 +232,7 @@ Comment lines are generally blocks written by the person who wrote the code as a
 
 **Example:**
 ```html
-<!-- I wrote a paragraph example here --> <p> this is a paragraph </p>
+<!-- I wrote a paragraph example here --> 
+<p> this is a paragraph </p>
 ```
 In the example above, even if there is an ```<html>``` tag in the comment line, **it will not appear**.
