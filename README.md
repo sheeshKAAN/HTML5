@@ -36,13 +36,6 @@ HTML **(Hypertext Markup Language)** is a markup language used when creating web
 - <p> : this tag allows us to create paragraphs on the web page.
 - <h1> : This tag used for headings is <h1>, <h2>, <h3> etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between <h1> and <h6>.
 ```
-**Examples**
-```html
-<p> paragraph </p>
-```
-```html
-<h1> big title </h1>
-```
 # Tag Structure in HTML
 ```
 Tags are used when marking texts in HTML. And when defining tags, the tag name is written inside < less than and > greater than signs.
@@ -50,4 +43,13 @@ That is, they are defined as <tagName>. Additionally, opened tags are closed in 
 That is, it is defined as <tagName> .. </tagName>. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
 You will understand and learn their distinction better in the following lessons, but to give a few examples of tags that cannot be closed, <img> <br> <hr> <meta> etc. we can say
 ```
-**<test>**
+**Examples**
+```html
+<p> paragraph </p>
+```
+```html
+<h1> big title </h1>
+```
+```html
+<title> ... </title>
+```
