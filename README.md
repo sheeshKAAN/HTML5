@@ -184,3 +184,5 @@ It is used for the slope of the text in both labels. The difference between them
 <i>italic writing</i>
 <em>eat, work, run, dance</em>
 ```
+# small Tag 
+The ```<small>``` tag is used to make text smaller than it appears. Even if the text is written in capital letters, the text in this label appears smaller than the other letters.
