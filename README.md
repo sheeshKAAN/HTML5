@@ -45,6 +45,7 @@ Tags are used when marking texts in HTML. And when defining tags, the tag name i
 That is, they are defined as ```<tagName>```. Additionally, opened tags are closed in the same way with **/** at the beginning.
 That is, it is defined as ```<tagName> .. </tagName>```. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
 You will understand and learn their distinction better in the following lessons, but to give a few examples of tags that cannot be closed, ```<img> <br> <hr> <meta>``` etc. we can say
+
 **Examples**
 ```html
 <p> paragraph </p>
@@ -57,3 +58,7 @@ You will understand and learn their distinction better in the following lessons,
 ```
 # Attribute Structure in HTML
 After creating the tags, it is necessary to examine the use of the attributes that make up the tags. You can think of attributes as the directives of tags. In other words, we define certain attributes to make the tag more functional. After opening the tag, we define the attribute as **key="value"**.
+**Example**
+```html
+<meta charset="UTF-8">
+```
