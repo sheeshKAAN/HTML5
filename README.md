@@ -119,4 +119,16 @@ The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and s
 ```
 We used the linking tag here. So, when the prototurk text is clicked, we created a link that will go to prototurk.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
 # Attributes in HTML
-**One important thing in HTML is attributes**. Qualifiers are the parts used inside the labels and serve to fulfill the label's instructions. Attributes are generally used as **attribute="value"**, but in some cases you may also see attributes without a value. Attribute values ​​must always be written in quotes.
+**One important thing in HTML is attributes**. Qualifiers are the parts used inside the labels and serve to fulfill the label's instructions. Attributes are generally used as ```attribute="value"```, but in some cases you may also see attributes without a value. Attribute values ​​must always be written in quotes.
+
+**Example:**
+```html
+<label attribute1="value" attribute2="value"></label>
+```
+As you can see, they are defined as attribute="value". And a tag can take more than one attribute. Now let's examine it through a real example.
+
+**Example:**
+```html
+<img src="test.png">
+```
+Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
