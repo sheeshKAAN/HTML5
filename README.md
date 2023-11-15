@@ -289,3 +289,25 @@ Here, if the cicek.png file cannot be read, it will appear as Red Rose Flower.
 The width and height attributes are used to determine the width and height of the image.
 
 **Example:**
+```html
+<img src="upload/cicek.png" alt="red rose flower" width="200" height="100">
+```
+Here we set the image to 200px in width and 100px in height. The value entered in the width and height values must be a number and is always interpreted in px.
+
+# Showing the Image in Another File 
+Let's say you want to display another image in a higher directory of the directory you are working in. Then we use ```../``` to go to the previous directory and select the image.
+
+**Example:**
+```html
+<img src="../img/test.png" alt="Test">
+```
+Instead of the directory where you run this code, it will go to a higher directory and search for test.png under the img folder. If we wanted to go 2 upper folders, we would use ```../../```.
+# Showing Images in Link 
+We learned about the anchor tag in the previous lesson. Now let's see how the two tags are used together.
+
+**Example:**
+```html
+<a href="URL">
+    <img src="img/file" alt="name">
+</a>
+```
