@@ -330,3 +330,4 @@ We can link by marking certain points on the image with the ```<map>``` tag. Let
     <area shape="rect" coords="444,95,834,408" href="computer.html" alt="Computer">
 </map>
 ```
+![IMG_20231115_213849.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/6c0736b7-bdb6-4160-a281-8a6a1eb69718)
