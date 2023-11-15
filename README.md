@@ -191,3 +191,5 @@ The ```<small>``` tag is used to make text smaller than it appears. Even if the 
 ```html
 Can <small>this text appear smaller</small> when these texts are normal?
 ```
+# mark Tag
+We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow pen.
