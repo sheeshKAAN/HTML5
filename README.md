@@ -167,6 +167,6 @@ Pretty simple right? :D
     And finally, examples of the subscript H<sub>2</sub>O and m<sup>2</sup> can be given.
 </p>
 ```
-
+Let's give more detailed information about these.
 # b and strong Tags 
 It thickens when visible on both labels. The difference between each other is that the ```<b>``` tag's markup only makes it bold, while the ```<strong>``` tag's markup both makes it bold and indicates that the text is an important text when interpreted by the browsers.
