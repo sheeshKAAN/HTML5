@@ -43,4 +43,4 @@ That is, they are defined as <tagName>. Additionally, opened tags are closed in 
 That is, it is defined as <tagName> .. </tagName>. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
 You will understand and learn their distinction better in the following lessons, but to give a few examples of tags that cannot be closed, <img> <br> <hr> <meta> etc. we can say
 ```
-
+**<test>**
