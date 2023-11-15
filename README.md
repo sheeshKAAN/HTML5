@@ -25,9 +25,11 @@ HTML **(Hypertext Markup Language)** is a markup language used when creating web
 
 # Basis Elements
 ```
-- <!DOCTYPE> : It is used to determine which version of HTML should be interpreted when interpreting the HTML page. All HTML pages begin with the <!DOCTYPE> definition. This definition represents the HTML version of the page.
+- <!DOCTYPE> : It is used to determine which version of HTML should be interpreted when interpreting the HTML page.
+All HTML pages begin with the <!DOCTYPE> definition. This definition represents the HTML version of the page.
 - <html> : It is the most basic tag of HTML and covers all other tags, that is, all other HTML tags must be written within the <html> tag.
-- The <head> tag contains header information about the page. In other words, it contains information that the user cannot see when he enters a web page, but will be loaded in the background and continue functioning.
+- The <head> tag contains header information about the page. In other words,
+it contains information that the user cannot see when he enters a web page, but will be loaded in the background and continue functioning.
 - <title> : tag is used to determine the <title> of the page and is located within the <head> tag.
 - The <meta> tag is used to specify headers on web pages.
 - <body> : tag contains all the text and tags that will appear. So, when a web page is opened, the contents of the <body> are displayed to the end user.
