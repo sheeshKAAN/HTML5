@@ -311,3 +311,11 @@ We learned about the anchor tag in the previous lesson. Now let's see how the tw
     <img src="img/file" alt="name">
 </a>
 ```
+# Linking to Images
+
+**Example**
+```html
+<a href="https://prototurk.com">
+    <img src="resim.png">
+</a>
+```
