@@ -138,6 +138,7 @@ HTML has certain tags to format expressions, that is, to add new styles to them.
 ```<b>``` - Bold text
 
 ```<strong>``` - Important article
+
 ```<i>``` - Italic text
 
 ```<em>``` - Highlighted text
@@ -153,4 +154,15 @@ HTML has certain tags to format expressions, that is, to add new styles to them.
 ```<sub>``` - Subscript text
 
 ```<sup>``` - Superscript text
+Pretty simple right? :D 
 
+**Examples:**
+```html
+<p>
+    Bu bir <b>kalın</b> yazıdır bu ise <strong>önemli bir kalın yazıdır.</strong> <br>
+    Bu bir <i>eğik yazıdır</i> bu ise <em>vurgulanan bir yazıdır.</em> <br>
+    Bu <mark>işaretlenmiş yazı</mark>, burası <small>KÜÇÜK GÖRÜNEN</small> YAZIDIR. <br>
+    Bu artık <del>silinmiş</del> bu ise <ins>yeni eklenmiş</ins> yazı örneği :) <br>
+    Ve son olarak alt simge H<sub>2</sub>O ve m<sup>2</sup> örnekleri verilebilir.
+</p>
+```
