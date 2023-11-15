@@ -55,3 +55,5 @@ You will understand and learn their distinction better in the following lessons,
 ```html
 <title> ... </title>
 ```
+# Attribute Structure in HTML
+After creating the tags, it is necessary to examine the use of the attributes that make up the tags. You can think of attributes as the directives of tags. In other words, we define certain attributes to make the tag more functional. After opening the tag, we define the attribute as **key="value"**.
