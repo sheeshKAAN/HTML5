@@ -94,6 +94,8 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
     <li>plum</li>
 </ul>
 ```
+![Screenshot_2023-11-16-00-13-17-845-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f7dcff37-fd32-4f69-b1b2-e07d6b504eac)
+
 # Tags in HTML
 Tags form the basis of HTML. Tags are predefined parts that we use when marking texts. So you cannot define a label yourself.
 
