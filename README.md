@@ -198,3 +198,10 @@ We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow
 ```html
 this text is normal<mark>this text is crossed out in yellow</mark>
 ```
+# del Tag
+We mark the strikethrough text with the ```<del>``` tag.
+
+**Example:**
+```html
+Lemonade price <del> 1$ </del> 5$
+```
