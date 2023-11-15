@@ -247,3 +247,21 @@ When an article is clicked on your web page, you need to close it or create a li
 When you click on Go to Google here, you will go to **google.com.tr**. In this way, a link is made from one page to another page. 
 
 As seen in the example, the href attribute is used to determine the address to go to when clicked. The ```<a>``` tag does not only contain the href attribute, it can be used with many other attributes.
+
+# Target Attribute in HTML
+Apart from href, there is also a target attribute. With this attribute, we determine how the connection will be opened. It has to take one of the following as the value;
+
+```_self``` - this is the default value, it opens in the current page. 
+```_blank``` - opens the link in a new page. 
+```iframeName``` - opens the link within the specified iframe.
+
+**Example:**
+```html
+<a href="https://venge.io/" target="_blank">Venge</a>
+```
+When clicked, Venge will open in a new tab. There is also the option to open within iframes. Let's give him an **example:**
+```html
+<p> Click <a href="https://venge.io/" target="browser">to open Venge!
+    
+<iframe name="browser" width="600" height="300"></iframe>
+```
