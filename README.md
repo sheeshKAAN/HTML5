@@ -40,6 +40,9 @@ HTML **(Hypertext Markup Language)** is a markup language used when creating web
 ```html
 <p> paragraph </p>
 ```
+```html
+<h1> big title </h1>
+```
 # Tag Structure in HTML
 ```
 Tags are used when marking texts in HTML. And when defining tags, the tag name is written inside < less than and > greater than signs.
