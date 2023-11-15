@@ -267,3 +267,10 @@ When clicked, Venge will open in a new tab. There is also the option to open wit
     
 <iframe name="browser" width="600" height="300"></iframe>
 ```
+# Images (Pictures) in HTML 
+In HTML, images are organized with the ```<img>``` tag. The ```<img>``` tag does not imply poor quality and is an example of a self-closing tag type. Let's put it together and examine it.
+
+**Example:**
+```html
+<img src="URL">
+```
