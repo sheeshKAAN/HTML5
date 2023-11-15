@@ -319,3 +319,5 @@ We learned about the anchor tag in the previous lesson. Now let's see how the tw
     <img src="image.png">
 </a>
 ```
+# HTML <map> Tag 
+We can link by marking certain points on the image with the ```<map>``` tag. Let's look at an example now.
