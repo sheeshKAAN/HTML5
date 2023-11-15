@@ -168,5 +168,5 @@ Pretty simple right? :D
 </p>
 ```
 
-# <b> and <strong> Tags 
+# ```<b>``` and ```<strong>``` Tags 
 It thickens when visible on both labels. The difference between each other is that the ```<b>``` tag's markup only makes it bold, while the ```<strong>``` tag's markup both makes it bold and indicates that the text is an important text when interpreted by the browsers.
