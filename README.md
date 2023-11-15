@@ -115,6 +115,6 @@ The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and s
 
 **Example:**
 ```html
-a href="https://venge.io/">venge</a>
+<a href="https://venge.io/">venge</a>
 ```
 We used the linking tag here. So, when the prototurk text is clicked, we created a link that will go to prototurk.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
