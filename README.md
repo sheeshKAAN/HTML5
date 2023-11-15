@@ -19,3 +19,16 @@ The he database allows storing and managing data used in web applications. There
 Web software offers significant value to businesses and users today. Developing web applications can be accomplished successfully by understanding the basic components and development processes and choosing the right approaches. Developers' and project managers' planning and implementation of web software projects by taking these processes and approaches into consideration will help improve the quality, performance and user satisfaction of the application.
 
 Yes, after briefly summarizing the web part, we can now get into HTML.
+
+# What is HTML?
+HTML **(Hypertext Markup Language)** is a markup language used when creating web pages, it forms the basis of the web page. CSS, which makes it look more beautiful and organized, is JavaScript, which allows it to be used in a more dynamic structure. HTML5 is the fifth version of the HTML markup standard, one of the core technologies of the Internet.
+
+# Basis Elements
+- **<!DOCTYPE>** : It is used to determine which version of HTML should be interpreted when interpreting the HTML page. All HTML pages begin with the <!DOCTYPE> definition. This definition represents the HTML version of the page.
+- **<html>**: It is the most basic tag of HTML and covers all other tags, that is, all other HTML tags must be written within the <html> tag.
+- The **<head>** tag contains header information about the page. In other words, it contains information that the user cannot see when he enters a web page, but will be loaded in the background and continue functioning.
+- **<title>** : tag is used to determine the title of the page and is located within the <head> tag.
+- The **<meta>** tag is used to specify headers on web pages.
+- **<body>** : tag contains all the text and tags that will appear. So, when a web page is opened, the contents of the body are displayed to the end user.
+- **<p>** : this tag allows us to create paragraphs on the web page.
+- **<h1>** : This tag used for headings is <h1>, <h2>, <h3> etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between <h1> and <h6>.
