@@ -1,5 +1,5 @@
 Greetings, before starting the lessons, I would like to give you some information about the web.But before that, there are a few things I want to tell you.
-You cannot learn software by just reading and watching, this is true for all programming languages ​​and many other things. You must put into practice what you have learned, and understand what is useful for what purpose. If you really want to learn, follow me on this journey and do the necessary things.Have fun everyone here😁
+You cannot learn software by just reading and watching, this is true for all programming languages ​​and many other things. You must put into practice what you have learned, and understand what is useful for what purpose. If you really want to learn, follow me on this journey and do the necessary things. Have fun everyone here😁
 # Web Software
 Web software is software used to add features to the HTML markup language that forms the basis of websites. Thanks to this software, websites can update themselves automatically without the need for a person to edit them.
 
