@@ -159,10 +159,10 @@ Pretty simple right? :D
 **Examples:**
 ```html
 <p>
-    Bu bir <b>kalın</b> yazıdır bu ise <strong>önemli bir kalın yazıdır.</strong> <br>
-    Bu bir <i>eğik yazıdır</i> bu ise <em>vurgulanan bir yazıdır.</em> <br>
-    Bu <mark>işaretlenmiş yazı</mark>, burası <small>KÜÇÜK GÖRÜNEN</small> YAZIDIR. <br>
-    Bu artık <del>silinmiş</del> bu ise <ins>yeni eklenmiş</ins> yazı örneği :) <br>
-    Ve son olarak alt simge H<sub>2</sub>O ve m<sup>2</sup> örnekleri verilebilir.
+    This is <b>bold</b> text and this is <strong>important bold text.</strong> <br>
+    This is <i>italic text</i> and this is <em>emphasized text.</em> <br>
+    This is <mark>marked text</mark>, this is <small>SMALLUM</small> TEXT. <br>
+    This is now <del>deleted</del> and this is <ins>newly added</ins> text example :) <br>
+    And finally, examples of the subscript H<sub>2</sub>O and m<sup>2</sup> can be given.
 </p>
 ```
