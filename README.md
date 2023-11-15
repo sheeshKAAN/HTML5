@@ -379,3 +379,5 @@ The ```<thead>``` tag is used to determine the header part of the table. It cont
     </tbody>
 </table>
 ```
+# Table Footer
+At the same time, the ```<tfoot>``` tag is used to determine the footer of the table. In this context, the ```<table>``` tag actually consists of 3 tags, ```<thead>``` for the header, ```<tbody>``` for the table content, and ```<tfoot>``` tag for the footer. Let's make it meaningful with an example
