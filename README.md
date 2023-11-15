@@ -236,3 +236,11 @@ Comment lines are generally blocks written by the person who wrote the code as a
 <p> this is a paragraph </p>
 ```
 In the example above, even if there is an ```<html>``` tag in the comment line, **it will not appear**.
+
+# Links in HTML
+When an article is clicked on your web page, you need to close it or create a link to another page or another file on another website. While doing this, we create it with the ```<a>``` tag in HTML.
+
+**Example:**
+```html
+<a href="https://google.com/tr">go to google</a>
+```
