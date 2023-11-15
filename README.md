@@ -134,13 +134,23 @@ As you can see, they are defined as attribute="value". And a tag can take more t
 Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
 # Text Formatting Tags in HTML
 HTML has certain tags to format expressions, that is, to add new styles to them. List of them;
+
 ```<b>``` - Bold text
+
 ```<strong>``` - Important article
 ```<i>``` - Italic text
+
 ```<em>``` - Highlighted text
+
 ```<mark>``` - Marked text (While reading books, we would underline an important part with a yellow pen, this is exactly it ^^)
+
 ```<small>``` - Small text (Even if written in capital letters, it appears smaller than normal text)
+
 ```<del>``` - Deleted text (Don't ask what the deleted text does, for example, when the price of the product changes, they cross it out and write the new price, this is in that logic)
+
 ```<ins>``` - Inserted text
+
 ```<sub>``` - Subscript text
+
 ```<sup>``` - Superscript text
+
