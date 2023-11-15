@@ -193,3 +193,8 @@ Can <small>this text appear smaller</small> when these texts are normal?
 ```
 # mark Tag
 We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow pen.
+
+**Example:**
+```html
+this text is normal<mark>this text is crossed out in yellow</mark>
+```
