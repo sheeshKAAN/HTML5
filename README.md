@@ -17,3 +17,5 @@ The backend is managed throughout the web server and is the part that users cann
 The he database allows storing and managing data used in web applications. There are two main types of databases: SQL and NoSQL. These types include popular database systems such as MySQL, PostgreSQL, MongoDB and Couchbase.
 # Web
 Web software offers significant value to businesses and users today. Developing web applications can be accomplished successfully by understanding the basic components and development processes and choosing the right approaches. Developers' and project managers' planning and implementation of web software projects by taking these processes and approaches into consideration will help improve the quality, performance and user satisfaction of the application.
+
+Yes, after briefly summarizing the web part, we can now get into HTML.
