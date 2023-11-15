@@ -177,7 +177,7 @@ It thickens when visible on both labels. The difference between each other is th
 <strong>Have are you?</strong>
 ```
 # i and em Tags
-It is used for the slope of the text in both labels. The difference between them is that marking the ```<i>``` tag only shows italics, while marking the ``<em>``` tag both shows italics and indicates that that text is highlighted when interpreted by browsers.
+It is used for the slope of the text in both labels. The difference between them is that marking the ```<i>``` tag only shows italics, while marking the ```<em>``` tag both shows italics and indicates that that text is highlighted when interpreted by browsers.
 
 **Example:**
 ```html
