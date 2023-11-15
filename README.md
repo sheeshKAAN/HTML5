@@ -212,3 +212,26 @@ The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del
 ```html
 Lemonade price <del> 1$ </del> <ins> 5$ </ins>
 ```
+
+# sub Tag 
+This tag is used to designate the text as a subscript. For example, when we say H2O, it would be correct to use the value 2 as a subscript.
+
+**Example:**
+```html
+H<sub>2</sub>O
+```
+# sup Tag 
+This tag is used to designate the text as superscript. For example, when we say m2, it would be correct to use the value 2 as a superscript.
+
+**Example:**
+```html
+m<sup>2</sup>
+```
+# Comment Lines in HTML 
+Comment lines are generally blocks written by the person who wrote the code as a reminder. Because comment lines are not visible to the end user, they can only be seen by looking at the source of the page. Therefore, remember that comments can be read by anyone. When defining, everything between the lines starting with ```<!--``` and ending with ```-->``` is perceived as a comment.
+
+**Example:**
+```html
+<!-- I wrote a paragraph example here --> <p> this is a paragraph </p>
+```
+In the example above, even if there is an ```<html>``` tag in the comment line, **it will not appear**.
