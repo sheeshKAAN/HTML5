@@ -36,6 +36,10 @@ HTML **(Hypertext Markup Language)** is a markup language used when creating web
 - <p> : this tag allows us to create paragraphs on the web page.
 - <h1> : This tag used for headings is <h1>, <h2>, <h3> etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between <h1> and <h6>.
 ```
+**Examples**
+```html
+<p> paragraph </p>
+```
 # Tag Structure in HTML
 ```
 Tags are used when marking texts in HTML. And when defining tags, the tag name is written inside < less than and > greater than signs.
