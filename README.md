@@ -24,18 +24,15 @@ Yes, after briefly summarizing the web part, we can now get into HTML.
 HTML **(Hypertext Markup Language)** is a markup language used when creating web pages, it forms the basis of the web page. CSS, which makes it look more beautiful and organized, is JavaScript, which allows it to be used in a more dynamic structure. HTML5 is the fifth version of the HTML markup standard, one of the core technologies of the Internet.
 
 # Basis Elements
-```
-- <!DOCTYPE> : It is used to determine which version of HTML should be interpreted when interpreting the HTML page.
-  All HTML pages begin with the <!DOCTYPE> definition. This definition represents the HTML version of the page.
-- <html> : It is the most basic tag of HTML and covers all other tags, that is, all other HTML tags must be written within the <html> tag.
-- The <head> tag contains header information about the page. In other words,
-  it contains information that the user cannot see when he enters a web page, but will be loaded in the background and continue functioning.
-- <title> : tag is used to determine the <title> of the page and is located within the <head> tag.
-- The <meta> tag is used to specify headers on web pages.
-- <body> : tag contains all the text and tags that will appear. So, when a web page is opened, the contents of the <body> are displayed to the end user.
-- <p> : this tag allows us to create paragraphs on the web page.
-- <h1> : This tag used for headings is <h1>, <h2>, <h3> etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between <h1> and <h6>.
-```
+- ```<!DOCTYPE>``` : It is used to determine which version of HTML should be interpreted when interpreting the HTML page. All HTML pages begin with the ```<!DOCTYPE>``` definition. This definition represents the HTML version of the page.
+- ```<html>``` : It is the most basic tag of HTML and covers all other tags, that is, all other HTML tags must be written within the ```<html>``` tag.
+- The ```<head>``` tag contains header information about the page. In other words, it contains information that the user cannot see when he enters a web page, but will be loaded in the background and continue functioning.
+- ```<title>``` : tag is used to determine the ```<title>``` of the page and is located within the ```<head>``` tag.
+- The ```<meta>``` tag is used to specify headers on web pages.
+- ```<body>``` : tag contains all the text and tags that will appear. So, when a web page is opened, the contents of the ```<body>``` are displayed to the end user.
+- ```<p>``` : this tag allows us to create paragraphs on the web page.
+- ```<h1>```: This tag used for headings is ```<h1> <h2>, <h3>``` etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between ```<h1>``` and ```<h6>```.
+
 # Tag Structure in HTML
 ```
 Tags are used when marking texts in HTML. And when defining tags, the tag name is written inside < less than and > greater than signs.
@@ -47,8 +44,6 @@ You will understand and learn their distinction better in the following lessons,
 ```html
 <p> paragraph </p>
 ```
-
-test```<title>```test
 ```html
 <h1> big title </h1>
 ```
