@@ -346,11 +346,11 @@ Tables consist of rows and columns. In addition, the table has a header, the con
 <table border="1" width="100%">
     <tbody>
         <tr>
-            <td>Tayfun Erbilen</td>
+            <td>KAAN</td>
             <td>26</td>
         </tr>
         <tr>
-            <td>Ahmet Aslan</td>
+            <td>Cem</td>
             <td>22</td>
         </tr>
     </tbody>
