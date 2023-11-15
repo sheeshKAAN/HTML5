@@ -244,3 +244,6 @@ When an article is clicked on your web page, you need to close it or create a li
 ```html
 <a href="https://google.com/tr">go to google</a>
 ```
+When you click on Go to Google here, you will go to **google.com.tr**. In this way, a link is made from one page to another page. 
+
+As seen in the example, the href attribute is used to determine the address to go to when clicked. The ```<a>``` tag does not only contain the href attribute, it can be used with many other attributes.
