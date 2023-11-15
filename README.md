@@ -154,6 +154,7 @@ HTML has certain tags to format expressions, that is, to add new styles to them.
 ```<sub>``` - Subscript text
 
 ```<sup>``` - Superscript text
+
 Pretty simple right? :D 
 
 **Examples:**
