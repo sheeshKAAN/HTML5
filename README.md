@@ -83,3 +83,37 @@ The <img> tag is used to display images in HTML. If you remember, we mentioned t
 ```html
 <img src="test.png" alt="Displayed when there is no picture." title="It only appears when you hover over this title." width="300" height="200">
 ```
+# Listing in HTML
+In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` tags.
+
+**Example:**
+```html
+<ul>
+    <li>Elma</li>
+    <li>Armut</li>
+    <li>Erik</li>
+</ul>
+```
+# Tags in HTML
+Tags form the basis of HTML. Tags are predefined parts that we use when marking texts. So you cannot define a label yourself.
+
+**Example:**
+```html
+<h1> ... </h1>
+```
+In some tags, we do not have to close the tags because they are self-closing tags. The structure of these tags is as follows;
+
+**Example:**
+```html
+<img .../>
+```
+Now let's define a real tag and see its usage.
+```html
+<p> this is a paragraph tag </p>
+```
+The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and short texts in the ```<p>``` tag. Except for a few tags in HTML, tags are useless. In other words, they must be used in a qualified manner. What is quality? We will come to this topic in the next lesson.
+
+**Example:**
+```html
+a href="https://venge.io/">venge</a>
+```
