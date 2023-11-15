@@ -78,3 +78,8 @@ The <a> tag is used to link to an address in HTML. In this example, the href lin
 ```
 # Image in HTML
 The <img> tag is used to display images in HTML. If you remember, we mentioned that some tags close on their own, this tag is an example of them. Without attributes, the ```<img>``` tag won't display anything. In the ```<img>``` tag, **src=" "** is used to determine the image path, **alt=" "** is used for the alternative text that will appear if there is no image, **width=" "** and **height=" "** are used to adjust the width and height, and **title=" "** is used to create a description when hovered over.
+
+**Example:**
+```html
+<img src="test.png" alt="Displayed when there is no picture." title="It only appears when you hover over this title." width="300" height="200">
+```
