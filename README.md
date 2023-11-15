@@ -315,7 +315,7 @@ We learned about the anchor tag in the previous lesson. Now let's see how the tw
 
 **Example**
 ```html
-<a href="https://prototurk.com">
-    <img src="resim.png">
+<a href="URL">
+    <img src="image.png">
 </a>
 ```
