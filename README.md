@@ -205,3 +205,5 @@ We mark the strikethrough text with the ```<del>``` tag.
 ```html
 Lemonade price <del> 1$ </del> 5$
 ```
+# ins Tag
+The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del>```.
