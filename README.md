@@ -67,5 +67,5 @@ This example is both a self-closing label type and a combined label example, wit
 
 **Example:**
 ```html
-<meta content="description" content="açıklama..">
+<meta content="description" content="explanation...">
 ```
