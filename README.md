@@ -7,8 +7,11 @@ There are no restrictions in web software; you can make any project you have in 
 
 # Key Components of Web Content
 -  **Frontend**
+  
 Frontend is the surface layer of the web application that users directly interact with and can see visually. Technologies such as HTML, CSS and JavaScript are used in the frontend development process.
 -  **Backend**
+  
 The backend is managed throughout the web server and is the part that users cannot see. The backend contains transfers such as database data and server-side programming. Technologies used in the backend development process include languages ​​such as PHP, Python, Ruby and Java.
 -  **Database**
+  
 The he database allows storing and managing data used in web applications. There are two main types of databases: SQL and NoSQL. These types include popular database systems such as MySQL, PostgreSQL, MongoDB and Couchbase.
