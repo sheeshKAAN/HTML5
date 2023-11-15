@@ -330,5 +330,10 @@ We can link by marking certain points on the image with the ```<map>``` tag. Let
     <area shape="rect" coords="444,95,834,408" href="computer.html" alt="Computer">
 </map>
 ```
+Initial value ```(105)``` - Distance from left Second 
+value ```(249)``` - Distance from top Third value 
+```(161)``` - Distance from left + width Fourth value 
+```(366)``` - Distance from top + height
+
 The point to note here is that we used ```usemap="#ptmap"``` in the ```<img>``` tag. Note that the ptmap value is equal to the name attribute in the ```<map>``` tag. Then we started marking in the ```<map>``` tag. We used the ```<area>``` tag to mark it. In the ```<area>``` tag, we first said ```shape="rect"``` to specify the shape, that is, we determined the shape as a rectangle. Then we gave the coordinates by saying ```coords=""```. We determine the coordinates as follows.
 ![IMG_20231115_213849.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/6c0736b7-bdb6-4160-a281-8a6a1eb69718)
