@@ -321,3 +321,12 @@ We learned about the anchor tag in the previous lesson. Now let's see how the tw
 ```
 # HTML <map> Tag 
 We can link by marking certain points on the image with the ```<map>``` tag. Let's look at an example now.
+```html
+<img src="https://prototurk.com/upload/img/cihaz.jpg" alt="devices" usemap="#ptmap">
+
+<map name="ptmap">
+    <area shape="rect" coords="105,249,161,366" href="mobil.html" alt="telephone">
+    <area shape="rect" coords="238,172,386,366" href="tablet.html" alt="Tablet">
+    <area shape="rect" coords="444,95,834,408" href="computer.html" alt="Computer">
+</map>
+```
