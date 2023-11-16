@@ -361,6 +361,8 @@ value ```(249)``` - Distance from top Third value
 The point to note here is that we used ```usemap="#ptmap"``` in the ```<img>``` tag. Note that the ptmap value is equal to the name attribute in the ```<map>``` tag. Then we started marking in the ```<map>``` tag. We used the ```<area>``` tag to mark it. In the ```<area>``` tag, we first said ```shape="rect"``` to specify the shape, that is, we determined the shape as a rectangle. Then we gave the coordinates by saying ```coords=""```. We determine the coordinates as follows.
 ![IMG_20231115_213849.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/6c0736b7-bdb6-4160-a281-8a6a1eb69718)
 
+Yes, now let's take a look at the lists and tables.
+
 # Tables in HTML
 Tables consist of rows and columns. In addition, the table has a header, the content part, and a bottom part called the footer. Of course, each of these has a tag equivalent in HTML.
 
