@@ -8,7 +8,7 @@ Web software is software used to add features to the HTML markup language that f
 
 There are no restrictions in web software; you can make any project you have in mind concrete by making the necessary preparations. The main factor here is that web software is not created in a single language. Web software is developed using many languages ​​such as **Javascript**, **HTML**, **CSS**, **Python**, **PHP**. The important thing here is which language will best meet your needs. This selection is made by professionals and they do the planning and coding.
 
-# Key Components of Web Content
+# ```Key Components of Web Content```
 -  **Frontend:**
   
 Frontend is the surface layer of the web application that users directly interact with and can see visually. Technologies such as HTML, CSS and JavaScript are used in the frontend development process.
