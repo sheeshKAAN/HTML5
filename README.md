@@ -585,3 +585,5 @@ In fact, the ```<div>``` tag represents sections in the HTML page. So every new 
 <div> Hello World </div> We are testing. HTML```
 
 Of course, the ```<div>``` tag is normally used with certain attributes. You can find these qualities in detail on this label's own page. When you run the example above, you will notice that there is no appearance change, but you will see that the 2nd typed content starts from the bottom, I hope this was useful in understanding the block level tag. The ```<p>``` tag, which we frequently used in previous lessons, was also a **block-level** tag as a display level and started from a new line.
+![Screenshot_2023-11-16-23-35-22-423-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/36c76f8b-2e3a-4e34-aec2-10e86516a0bf)
+
