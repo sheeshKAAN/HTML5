@@ -486,7 +486,6 @@ The ```<ol>``` tag is used to create an ordered list.
    <li>Tags in HTML</li> 
 </ol>
 ```
-![Screenshot_2023-11-16-20-08-58-896-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/29a6c941-986e-46cd-a25d-7da12180d48b
 You can use the ```start``` attribute to specify where the counting starts
 
 **Example:**
