@@ -586,4 +586,80 @@ In fact, the ```<div>``` tag represents sections in the HTML page. So every new 
 
 Of course, the ```<div>``` tag is normally used with certain attributes. You can find these qualities in detail on this label's own page. When you run the example above, you will notice that there is no appearance change, but you will see that the 2nd typed content starts from the bottom, I hope this was useful in understanding the block level tag. The ```<p>``` tag, which we frequently used in previous lessons, was also a **block-level** tag as a display level and started from a new line.
 ![Screenshot_2023-11-16-23-35-22-423-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/36c76f8b-2e3a-4e34-aec2-10e86516a0bf)
+# Block Level Tags
+```<address>``` 
+```<article>``` 
+```<aside>``` 
+```<blockquote>``` 
+```<canvas>``` 
+```<dd>``` 
+```<div>``` 
+```<dl>``` 
+```<dt>``` 
+```<fieldset>``` 
+```<figcaption>``` 
+```<figure>``` 
+```<footer>``` 
+```<form>``` 
+```<h1>-<h6>``` 
+```<header>``` 
+```<hr>``` 
+```<li>``` 
+```<main>``` 
+```<nav>``` 
+```<noscript>``` 
+```<ol>``` 
+```<p>``` 
+```<pre>``` 
+```<section>``` 
+```<table>``` 
+```<tfoot>```
+```<ul>```
+```<video>```
+
+The ```<div>``` tag is an unstyled HTML tag. It is used as a container for other HTML tags. It is more related to CSS. The ```<div>``` tag is an unstyled HTML tag. It is often used as a container for other HTML tags.
+
+# Inline Level Tags 
+The most used of this tag type is the ```<span>``` tag. As its name suggests, it is an inline tag type, meaning that there will be no distortion or change even when marking within the text. Just like the ```<div>``` tag, the ```<span>``` tag is an unstyled tag that is mainly used to identify inline elements and apply CSS or JavaScript to them.
+
+**Example:**
+```html
+During a normal text, <span>this field written in span</span> will not look any different from the others.```
+
+# Inline Level Tags
+```<a>```
+```<abbr>```
+```<acronym>```
+```<b>```
+```<bdo>```
+```<big>```
+```<br>```
+```<button>```
+```<cite>```
+```<code>```
+```<dfn>```
+```<em>```
+```<i>```
+```<img>```
+```<input>```
+```<kbd>```
+```<label>```
+```<map>```
+```<object>```
+```<output>```
+```<q>```
+```<samp>```
+```<script>```
+```<select>```
+```<small>```
+```<span>```
+```<strong>```
+```<sub>```
+```<sup>```
+```<textarea>```
+```<time> ```
+```<tt> ```
+```<var>```
+
+It is not really important what the display level of a label is because these display levels can be changed with the help of CSS. So ```<div>``` is normally a block level tag, but we can turn it into an inline level tag with the help of CSS.
 
