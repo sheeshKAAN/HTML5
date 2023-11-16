@@ -460,3 +460,27 @@ We will use the ```<ul>``` tag to create an unordered list.
     <li>tea</li>
 </ul>
 ```
+There is a filled circle at the beginning of each list element, you can change these by giving the ```type``` attribute if you wish. You can give the following values: 
+```circle``` - hollow circle 
+```disc``` - solid circle 
+```square``` - solid square
+
+**Example:**
+```html
+<ul type="square">
+    <li>Lemonade</li>
+    <li>coffe</li>
+    <li>tea</li>
+</ul>
+```
+# Sorted List <ol> 
+The ```<ol>``` tag is used to create an ordered list.
+
+**Example:**
+```html
+<ol> 
+   <li>What is HTML?</li> 
+   <li>Getting Started with HTML</li> 
+   <li>Tags in HTML</li> 
+</ol>
+```
