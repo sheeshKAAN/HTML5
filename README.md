@@ -364,6 +364,7 @@ Tables consist of rows and columns. In addition, the table has a header, the con
     </tbody>
 </table>
 ```
+![Screenshot_2023-11-16-00-23-06-065-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/d08b27d0-f81b-4f59-bb09-c779ba62a5dc)
 Now, as you can guess, the ```<table>``` tag represents the table here, while ```border="1"``` is used to determine the lines of the table. We will do this with CSS later, but for now we can set the frame to 1 to see the examples. And as you noticed, other table tags are written inside this tag. We also used ```width="100%"``` to set the width of the table to 100%. ```<tbody>``` is the tag containing the content of the table. It contains ```<tr>``` tags for rows and ```<td>``` tags for columns. For tables with more than one row, more than one ```<tr>``` is added.
 #Table Header
 The ```<thead>``` tag is used to determine the header part of the table. It contains the ```<tr>``` tag again for the rows, but this time the ```<th>``` tag for the columns. Let's give an example right away;
