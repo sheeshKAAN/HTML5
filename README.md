@@ -397,24 +397,24 @@ At the same time, the ```<tfoot>``` tag is used to determine the footer of the t
 <table border="1" width="100%">
     <thead>
         <tr>
-            <th>Ad-soyad</th>
-            <th>Yaş</th>
+            <th>month</th>
+            <th>earning</th>
         </tr>
     </thead>
     <tbody>
        <tr>
-            <td>Ocak</td>
-            <td>100₺</td>
+            <td>January</td>
+            <td>100$</td>
         </tr>
         <tr>
-            <td>Şubat</td>
-            <td>200₺</td>
+            <td>February</td>
+            <td>200$</td>
         </tr>
     </tbody>
     <tfoot>
         <tr>
-            <td>Toplam</td>
-            <td>300₺</td>
+            <td>Total</td>
+            <td>300$</td>
         </tr>
     </tfoot>
 </table>
