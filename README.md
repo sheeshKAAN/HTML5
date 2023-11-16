@@ -203,6 +203,7 @@ We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow
 ```html
 this text is normal<mark>this text is crossed out in yellow</mark>
 ```
+![Screenshot_2023-11-16-00-17-35-530-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/24d768ee-f903-48d0-9d41-c4eea683da4a)
 # del Tag
 We mark the strikethrough text with the ```<del>``` tag.
 
