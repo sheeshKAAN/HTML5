@@ -28,6 +28,8 @@ Yes, after briefly summarizing the web part, we can now get into HTML.
 # What is HTML?
 HTML **(Hypertext Markup Language)** is a markup language used when creating web pages, it forms the basis of the web page. CSS, which makes it look more beautiful and organized, is JavaScript, which allows it to be used in a more dynamic structure. HTML5 is the fifth version of the HTML markup standard, one of the core technologies of the Internet.
 
+Yes, now that we have made the definition, we can move on to the software part. First of all, let's start with the basic elements, we will encounter these elements frequently.
+
 # Basis Elements
 - ```<!DOCTYPE>``` : It is used to determine which version of HTML should be interpreted when interpreting the HTML page. All HTML pages begin with the ```<!DOCTYPE>``` definition. This definition represents the HTML version of the page.
   
@@ -61,6 +63,8 @@ You will understand and learn their distinction better in the following lessons,
 ```html
 <title> ... </title>
 ```
+Everything is going well so far, now let's talk a little about the qualities.
+
 # Attribute Structure in HTML
 After creating the tags, it is necessary to examine the use of the attributes that make up the tags. You can think of attributes as the directives of tags. In other words, we define certain attributes to make the tag more functional. After opening the tag, we define the attribute as **key="value"**.
 
@@ -138,6 +142,9 @@ As you can see, they are defined as attribute="value". And a tag can take more t
 ```html
 <img src="test.png">
 ```
+We will see what we have learned in more detail in the following sections, these are just preliminary information.
+Now let's take a look at the other tags.
+
 Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
 # Text Formatting Tags in HTML
 HTML has certain tags to format expressions, that is, to add new styles to them. List of them;
@@ -239,6 +246,8 @@ This tag is used to designate the text as superscript. For example, when we say 
 ```html
 m<sup>2</sup>
 ```
+Now that we have detailed the tags a bit, we can move on to the comment lines. Comment lines will really come in handy.
+
 # Comment Lines in HTML 
 Comment lines are generally blocks written by the person who wrote the code as a reminder. Because comment lines are not visible to the end user, they can only be seen by looking at the source of the page. Therefore, remember that comments can be read by anyone. When defining, everything between the lines starting with ```<!--``` and ending with ```-->``` is perceived as a comment.
 
