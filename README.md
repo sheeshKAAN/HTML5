@@ -219,7 +219,7 @@ The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del
 ```html
 Lemonade price <del> 1$ </del> <ins> 5$ </ins>
 ```
-
+![Screenshot_2023-11-16-00-18-34-773-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/0ddeebe3-21b7-49b4-b8f0-80632ab2e8a3)
 # sub Tag 
 This tag is used to designate the text as a subscript. For example, when we say H2O, it would be correct to use the value 2 as a subscript.
 
