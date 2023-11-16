@@ -446,3 +446,4 @@ In a table The colspan attribute is used to combine columns in a table, and the 
 </table>
 ```
 In this example, I combined the 2 rows by adding the 1st column, that is, the year value, in the first row, ```rowspan="2"```. So, as you can see in the 2nd line, I did not write the year again because I combined the 2 lines at the top. In the 2nd row, this time I combined 2 columns. I did this by typing ```colspan="2"```. In other words, I printed the Name and Profession fields in a single column.
+![Screenshot_2023-11-16-13-30-56-938-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8a845d54-6924-4f65-b162-140186cb0d3c)
