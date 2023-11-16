@@ -449,3 +449,14 @@ In this example, I combined the 2 rows by adding the 1st column, that is, the ye
 ![Screenshot_2023-11-16-13-30-56-938-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8a845d54-6924-4f65-b162-140186cb0d3c)
 # Lists in HTML
 In HTML, lists are divided into ordered and unordered. Unordered lists are written in the ```<ul>``` tag, ordered lists are written in the ```<ol>``` tag. And each list element must be written within the ```<li>``` tag.
+# Unordered List <ul> 
+We will use the ```<ul>``` tag to create an unordered list.
+
+**Example:**
+```html
+<ul>
+    <li>lemonade</li>
+    <li>coffee</li>
+    <li>tea</li>
+</ul>
+```
