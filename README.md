@@ -281,7 +281,7 @@ In HTML, images are organized with the ```<img>``` tag. The ```<img>``` tag does
 ```html
 <img src="URL">
 ```
-In this example, a link to an image is given to the src attribute. Here, if you wish, you can remove the site address and give the image link. In other words, if the above example was to be displayed on this site, it could also be defined as ```/upload/img/ataturk.jpg```.
+In this example, a link to an image is given to the src attribute. Here, if you wish, you can remove the site address and give the image link. In other words, if the above example was to be displayed on this site, it could also be defined as ```/upload/img/test.jpg```.
 
 # subAttribute 
 This attribute represents an expression that alternatively describes the image when there is a problem with the image to be displayed and it cannot be displayed in some way.
