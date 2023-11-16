@@ -420,3 +420,29 @@ At the same time, the ```<tfoot>``` tag is used to determine the footer of the t
 </table>
 ```
 ![Screenshot_2023-11-16-13-22-01-163-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/30bddba8-a449-4928-a7f2-c1580690eaca)
+# Colspan and rowspan Attributes 
+In a table The colspan attribute is used to combine columns in a table, and the rowspan attribute is used to combine rows.
+
+**Example:**
+```html
+<table border="1" width="100%">
+    <thead>
+        <tr>
+            <th>Year</th>
+            <th>Name</th>
+            <th>Occupation</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">2019</td>
+            <td>KAAN</td>
+            <td>Web Developer</td>
+        </tr>
+        <tr>
+            <td colspan="2">Cem - Web Developer</td>
+        </tr>
+    </tbody>
+</table>
+```
+In this example, I combined the 2 rows by adding the 1st column, that is, the year value, in the first row, ```rowspan="2"```. So, as you can see in the 2nd line, I did not write the year again because I combined the 2 lines at the top. In the 2nd row, this time I combined 2 columns. I did this by typing ```colspan="2"```. In other words, I printed the Name and Profession fields in a single column.
