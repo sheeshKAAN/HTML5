@@ -474,6 +474,7 @@ There is a filled circle at the beginning of each list element, you can change t
     <li>tea</li>
 </ul>
 ```
+![Screenshot_2023-11-16-20-08-28-649-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/89983e46-90ad-43ee-962a-de202fc7866e)
 # Sorted List <ol> 
 The ```<ol>``` tag is used to create an ordered list.
 
