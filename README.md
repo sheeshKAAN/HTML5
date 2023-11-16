@@ -391,3 +391,31 @@ The ```<thead>``` tag is used to determine the header part of the table. It cont
 ![Screenshot_2023-11-16-00-23-38-154-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/17b1c416-48a9-4df7-875b-1f156d965444)
 # Table Footer
 At the same time, the ```<tfoot>``` tag is used to determine the footer of the table. In this context, the ```<table>``` tag actually consists of 3 tags, ```<thead>``` for the header, ```<tbody>``` for the table content, and ```<tfoot>``` tag for the footer. Let's make it meaningful with an example
+
+**Example:**
+```html
+<table border="1" width="100%">
+    <thead>
+        <tr>
+            <th>Ad-soyad</th>
+            <th>Yaş</th>
+        </tr>
+    </thead>
+    <tbody>
+       <tr>
+            <td>Ocak</td>
+            <td>100₺</td>
+        </tr>
+        <tr>
+            <td>Şubat</td>
+            <td>200₺</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Toplam</td>
+            <td>300₺</td>
+        </tr>
+    </tfoot>
+</table>
+```
