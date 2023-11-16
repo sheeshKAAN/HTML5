@@ -142,10 +142,11 @@ As you can see, they are defined as attribute="value". And a tag can take more t
 ```html
 <img src="test.png">
 ```
+Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
+
 We will see what we have learned in more detail in the following sections, these are just preliminary information.
 Now let's take a look at the other tags.
 
-Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
 # Text Formatting Tags in HTML
 HTML has certain tags to format expressions, that is, to add new styles to them. List of them;
 
