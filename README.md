@@ -488,7 +488,7 @@ You can use the ```start``` attribute to specify where the counting starts
 
 **Example:**
 ```html
-<ol> start="3"
+<ol> start="3" >
    <li>What is HTML?</li> 
    <li>Getting Started with HTML</li> 
    <li>Tags in HTML</li> 
