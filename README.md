@@ -419,3 +419,4 @@ At the same time, the ```<tfoot>``` tag is used to determine the footer of the t
     </tfoot>
 </table>
 ```
+![Screenshot_2023-11-16-13-22-01-163-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/30bddba8-a449-4928-a7f2-c1580690eaca)
