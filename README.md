@@ -8,7 +8,7 @@ Web software is software used to add features to the HTML markup language that f
 
 There are no restrictions in web software; you can make any project you have in mind concrete by making the necessary preparations. The main factor here is that web software is not created in a single language. Web software is developed using many languages ​​such as **Javascript**, **HTML**, **CSS**, **Python**, **PHP**. The important thing here is which language will best meet your needs. This selection is made by professionals and they do the planning and coding.
 
-# ```Key Components of Web Content```
+# Key Components of Web Content
 -  **Frontend:**
   
 Frontend is the surface layer of the web application that users directly interact with and can see visually. Technologies such as HTML, CSS and JavaScript are used in the frontend development process.
@@ -193,7 +193,7 @@ It thickens when visible on both labels. The difference between each other is th
 <b>Hello KAAN</b>
 <strong>Have are you?</strong>
 ```
-# i and em Tags
+# ```<i>``` and ```<em>``` Tags
 It is used for the slope of the text in both labels. The difference between them is that marking the ```<i>``` tag only shows italics, while marking the ```<em>``` tag both shows italics and indicates that that text is highlighted when interpreted by browsers.
 
 **Example:**
@@ -201,7 +201,7 @@ It is used for the slope of the text in both labels. The difference between them
 <i>italic writing</i>
 <em>eat, work, run, dance</em>
 ```
-# small Tag 
+# ```<small>``` Tag 
 The ```<small>``` tag is used to make text smaller than it appears. Even if the text is written in capital letters, the text in this label appears smaller than the other letters.
 
 **Example:**
@@ -209,7 +209,7 @@ The ```<small>``` tag is used to make text smaller than it appears. Even if the 
 Can <small>this text appear smaller</small> when these texts are normal?
 ```
 ![Screenshot_2023-11-16-00-17-01-335-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/1490eda6-50c3-496f-8443-9232d655b0f4)
-# mark Tag
+# ```<mark>``` Tag
 We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow pen.
 
 **Example:**
@@ -217,7 +217,7 @@ We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow
 this text is normal<mark>this text is crossed out in yellow</mark>
 ```
 ![Screenshot_2023-11-16-00-17-35-530-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/24d768ee-f903-48d0-9d41-c4eea683da4a)
-# del Tag
+# ```<del>``` Tag
 We mark the strikethrough text with the ```<del>``` tag.
 
 **Example:**
@@ -225,7 +225,7 @@ We mark the strikethrough text with the ```<del>``` tag.
 Lemonade price <del> 1$ </del> 5$
 ```
 ![Screenshot_2023-11-16-00-18-01-805-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/863779a8-b705-48fe-827d-3ee34fc7b2fd)
-# ins Tag
+# ```<ins>``` Tag
 The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del>```.
 
 **Example:**
@@ -233,14 +233,14 @@ The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del
 Lemonade price <del> 1$ </del> <ins> 5$ </ins>
 ```
 ![Screenshot_2023-11-16-00-18-34-773-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/0ddeebe3-21b7-49b4-b8f0-80632ab2e8a3)
-# sub Tag 
+# ```<sub>``` Tag 
 This tag is used to designate the text as a subscript. For example, when we say H2O, it would be correct to use the value 2 as a subscript.
 
 **Example:**
 ```html
 H<sub>2</sub>O
 ```
-# sup Tag 
+# ```<sup>``` Tag 
 This tag is used to designate the text as superscript. For example, when we say m2, it would be correct to use the value 2 as a superscript.
 
 **Example:**
