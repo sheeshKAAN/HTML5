@@ -103,6 +103,8 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
     <li>plum</li>
 </ul>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-00-13-17-845-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f7dcff37-fd32-4f69-b1b2-e07d6b504eac)
 
 # Tags in HTML
@@ -182,6 +184,8 @@ Pretty simple right? :D
     And finally, examples of the subscript H<sub>2</sub>O and m<sup>2</sup> can be given.
 </p>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-00-15-25-167-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8ced6e1e-5417-4cf1-bff9-ffc23f7a5d1c)
 
 Let's give more detailed information about these.
@@ -208,6 +212,8 @@ The ```<small>``` tag is used to make text smaller than it appears. Even if the 
 ```html
 Can <small>this text appear smaller</small> when these texts are normal?
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-00-17-01-335-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/1490eda6-50c3-496f-8443-9232d655b0f4)
 # ```<mark>``` Tag
 We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow pen.
@@ -216,6 +222,8 @@ We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow
 ```html
 this text is normal<mark>this text is crossed out in yellow</mark>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-00-17-35-530-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/24d768ee-f903-48d0-9d41-c4eea683da4a)
 # ```<del>``` Tag
 We mark the strikethrough text with the ```<del>``` tag.
@@ -224,6 +232,8 @@ We mark the strikethrough text with the ```<del>``` tag.
 ```html
 Lemonade price <del> 1$ </del> 5$
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-00-18-01-805-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/863779a8-b705-48fe-827d-3ee34fc7b2fd)
 # ```<ins>``` Tag
 The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del>```.
@@ -232,6 +242,8 @@ The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del
 ```html
 Lemonade price <del> 1$ </del> <ins> 5$ </ins>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-00-18-34-773-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/0ddeebe3-21b7-49b4-b8f0-80632ab2e8a3)
 # ```<sub>``` Tag 
 This tag is used to designate the text as a subscript. For example, when we say H2O, it would be correct to use the value 2 as a subscript.
@@ -306,6 +318,7 @@ This attribute represents an expression that alternatively describes the image w
 <img src="upload/cicek.png" alt="red rose flower">
 ```
 Here, if the cicek.png file cannot be read, it will appear as Red Rose Flower.
+**Editor:**
 ![Screenshot_2023-11-16-00-21-59-691-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/967225d2-4df6-43c4-8f45-f3d5350d12dc)
 
 # width and height Attributes 
@@ -359,6 +372,8 @@ value ```(249)``` - Distance from top Third value
 ```(366)``` - Distance from top + height
 
 The point to note here is that we used ```usemap="#ptmap"``` in the ```<img>``` tag. Note that the ptmap value is equal to the name attribute in the ```<map>``` tag. Then we started marking in the ```<map>``` tag. We used the ```<area>``` tag to mark it. In the ```<area>``` tag, we first said ```shape="rect"``` to specify the shape, that is, we determined the shape as a rectangle. Then we gave the coordinates by saying ```coords=""```. We determine the coordinates as follows.
+
+**Editor:**
 ![IMG_20231115_213849.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/6c0736b7-bdb6-4160-a281-8a6a1eb69718)
 
 Yes, now let's take a look at the lists and tables.
@@ -381,6 +396,8 @@ Tables consist of rows and columns. In addition, the table has a header, the con
     </tbody>
 </table>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-00-23-06-065-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/d08b27d0-f81b-4f59-bb09-c779ba62a5dc)
 Now, as you can guess, the ```<table>``` tag represents the table here, while ```border="1"``` is used to determine the lines of the table. We will do this with CSS later, but for now we can set the frame to 1 to see the examples. And as you noticed, other table tags are written inside this tag. We also used ```width="100%"``` to set the width of the table to 100%. ```<tbody>``` is the tag containing the content of the table. It contains ```<tr>``` tags for rows and ```<td>``` tags for columns. For tables with more than one row, more than one ```<tr>``` is added.
 #Table Header
@@ -405,6 +422,7 @@ The ```<thead>``` tag is used to determine the header part of the table. It cont
     </tbody>
 </table>
 ```
+**Edıtor:**
 ![Screenshot_2023-11-16-00-23-38-154-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/17b1c416-48a9-4df7-875b-1f156d965444)
 # Table Footer
 At the same time, the ```<tfoot>``` tag is used to determine the footer of the table. In this context, the ```<table>``` tag actually consists of 3 tags, ```<thead>``` for the header, ```<tbody>``` for the table content, and ```<tfoot>``` tag for the footer. Let's make it meaningful with an example
@@ -436,6 +454,8 @@ At the same time, the ```<tfoot>``` tag is used to determine the footer of the t
     </tfoot>
 </table>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-13-22-01-163-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/30bddba8-a449-4928-a7f2-c1580690eaca)
 # Colspan and rowspan Attributes 
 In a table The colspan attribute is used to combine columns in a table, and the rowspan attribute is used to combine rows.
@@ -463,6 +483,8 @@ In a table The colspan attribute is used to combine columns in a table, and the 
 </table>
 ```
 In this example, I combined the 2 rows by adding the 1st column, that is, the year value, in the first row, ```rowspan="2"```. So, as you can see in the 2nd line, I did not write the year again because I combined the 2 lines at the top. In the 2nd row, this time I combined 2 columns. I did this by typing ```colspan="2"```. In other words, I printed the Name and Profession fields in a single column.
+
+**Editor:**
 ![Screenshot_2023-11-16-13-30-56-938-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8a845d54-6924-4f65-b162-140186cb0d3c)
 # Lists in HTML
 In HTML, lists are divided into ordered and unordered. Unordered lists are written in the ```<ul>``` tag, ordered lists are written in the ```<ol>``` tag. And each list element must be written within the ```<li>``` tag.
@@ -477,6 +499,8 @@ We will use the ```<ul>``` tag to create an unordered list.
     <li>tea</li>
 </ul>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-20-08-02-096-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f13deec3-f468-462d-a59b-65d0b0fc06c7)
 There is a filled circle at the beginning of each list element, you can change these by giving the ```type``` attribute if you wish. You can give the following values: 
 ```circle``` - hollow circle 
@@ -491,6 +515,8 @@ There is a filled circle at the beginning of each list element, you can change t
     <li>tea</li>
 </ul>
 ```
+
+**Edıtor:**
 ![Screenshot_2023-11-16-20-08-28-649-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/89983e46-90ad-43ee-962a-de202fc7866e)
 # Sorted List <ol> 
 The ```<ol>``` tag is used to create an ordered list.
@@ -503,6 +529,8 @@ The ```<ol>``` tag is used to create an ordered list.
    <li>Tags in HTML</li> 
 </ol>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-20-08-58-896-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/29a6c941-986e-46cd-a25d-7da12180d48b)
 You can use the ```start``` attribute to specify where the counting starts
 
@@ -514,6 +542,8 @@ You can use the ```start``` attribute to specify where the counting starts
    <li>Tags in HTML</li> 
 </ol>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-20-10-34-221-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/24ced8cd-27c2-45bb-bdf3-e59891d0e9c7)
 # Using Nested Lists 
 In general, we will need to use nested lists frequently. When using it, a new list is written inside the ```<li>``` tag. Let's give an example
@@ -556,6 +586,8 @@ In general, we will need to use nested lists frequently. When using it, a new li
     </li>
 </ul>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-23-16-11-831-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/b8574ed3-c289-47b2-9e90-955180093607)
 # Description List in HTML 
 You can also create description lists in HTML. So you can create a list and use these labels to explain what each element does. The <dl> tag is used to create the list, the ```<dt>``` tag is used for the term to be explained, and the ```<dd>``` tag is used for the description.
@@ -569,6 +601,8 @@ You can also create description lists in HTML. So you can create a list and use 
     <dd>Nobel Prize-winning German theoretical physicist of Jewish origin</dd>
 </dl>
 ```
+
+**Editor:**
 ![Screenshot_2023-11-16-23-21-56-959-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/3e4d8d4a-474e-4bb8-981d-75c1a79cf86e)
 
 List tags are the tags we use to create menus when doing web design. Even if it doesn't make sense right now, it can gain meaning with CSS. To make an analogy, HTML forms the trunk and branches of the tree, and CSS forms the green leaves.
@@ -585,6 +619,8 @@ In fact, the ```<div>``` tag represents sections in the HTML page. So every new 
 <div> Hello World </div> We are testing. HTML```
 
 Of course, the ```<div>``` tag is normally used with certain attributes. You can find these qualities in detail on this label's own page. When you run the example above, you will notice that there is no appearance change, but you will see that the 2nd typed content starts from the bottom, I hope this was useful in understanding the block level tag. The ```<p>``` tag, which we frequently used in previous lessons, was also a **block-level** tag as a display level and started from a new line.
+
+**Editor:**
 ![Screenshot_2023-11-16-23-35-22-423-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/36c76f8b-2e3a-4e34-aec2-10e86516a0bf)
 # Block Level Tags
 ```<address>``` 
