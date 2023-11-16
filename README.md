@@ -570,3 +570,5 @@ You can also create description lists in HTML. So you can create a list and use 
 </dl>
 ```
 ![Screenshot_2023-11-16-23-21-56-959-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/3e4d8d4a-474e-4bb8-981d-75c1a79cf86e)
+
+List tags are the tags we use to create menus when doing web design. Even if it doesn't make sense right now, it can gain meaning with CSS. To make an analogy, HTML forms the trunk and branches of the tree, and CSS forms the green leaves.
