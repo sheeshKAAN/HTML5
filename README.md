@@ -557,3 +557,15 @@ In general, we will need to use nested lists frequently. When using it, a new li
 </ul>
 ```
 ![Screenshot_2023-11-16-23-16-11-831-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/b8574ed3-c289-47b2-9e90-955180093607)
+# Description List in HTML 
+You can also create description lists in HTML. So you can create a list and use these labels to explain what each element does. The <dl> tag is used to create the list, the ```<dt>``` tag is used for the term to be explained, and the ```<dd>``` tag is used for the description.
+
+**Example:**
+```html
+<dl>
+    <dt>Mustafa Kemal Atatürk</dt>
+    <dd>Founder of the Republic of Türkiye.</dd>
+    <dt>Einstein</dt>
+    <dd>Nobel Prize-winning German theoretical physicist of Jewish origin</dd>
+</dl>
+```
