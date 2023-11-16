@@ -494,3 +494,29 @@ You can use the ```start``` attribute to specify where the counting starts
    <li>Tags in HTML</li> 
 </ol>
 ```
+# Using Nested Lists 
+In general, we will need to use nested lists frequently. When using it, a new list is written inside the ```<li>``` tag. Let's give an example
+
+**Example:**
+```html
+<ul>
+    <li>HTML</li>
+    <li>
+        CSS
+        <ul>
+            <li>SASS</li>
+            <li>LESS</li>
+        </ul>
+    </li>
+    <li>
+        JavaScript
+        <ul>
+            <li>
+                Client-side
+                <ul>
+                    <li>jQuery</li>
+                    <li>React</li>
+                </ul>
+            </li>
+            <li>
+```
