@@ -460,6 +460,7 @@ We will use the ```<ul>``` tag to create an unordered list.
     <li>tea</li>
 </ul>
 ```
+![Screenshot_2023-11-16-20-08-02-096-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f13deec3-f468-462d-a59b-65d0b0fc06c7)
 There is a filled circle at the beginning of each list element, you can change these by giving the ```type``` attribute if you wish. You can give the following values: 
 ```circle``` - hollow circle 
 ```disc``` - solid circle 
