@@ -318,6 +318,7 @@ This attribute represents an expression that alternatively describes the image w
 <img src="upload/cicek.png" alt="red rose flower">
 ```
 Here, if the cicek.png file cannot be read, it will appear as Red Rose Flower.
+
 **Editor:**
 ![Screenshot_2023-11-16-00-21-59-691-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/967225d2-4df6-43c4-8f45-f3d5350d12dc)
 
