@@ -613,7 +613,8 @@ List tags are the tags we use to create menus when doing web design. Even if it 
 Each HTML tag has a default display value. The default display value of most tags is either **block-level** tag or **inline-level** tag view.
 # Block Level Labels 
 Block level tags always start on a new line and take up the entire width, meaning they appear as 100%. In this way, it becomes easier to understand block level labels. The most common tag we can give to block level tags is the ```<div>``` tag
-# ```<div> Tag
+
+# ```<div>``` Tag
 In fact, the ```<div>``` tag represents sections in the HTML page. So every new div means a new section. When we want to separate sections, we generally use the ```<div>``` tag. However, we generally meet our block level label needs from this label, it may not mean much right now because it does not give a different appearance as an output when used, the purpose here is not to give a view anyway but to customize the view by using this label. Of course, CSS is required for this. Right now you just need to know that there is such a tag and that it is a block level tag and is one of the most used tags.
 
 **Example:**
