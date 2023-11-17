@@ -844,3 +844,64 @@ I think we understand clearly why we need to use these attributes. In other word
 
 **Don't Forget!**
 A tag can have both ```id``` and ```class``` attributes at the same time.
+
+#Using Iframe in HTML
+Iframes are used within web pages to embed and display other web pages.
+
+Of course, we cannot do this for every web page because most web pages prevent viewing with iframes. I will show you how to do this at the end of the article. Now let's examine the codes of how to create an iframe;
+```html
+<iframe src="https://venge.io"></iframe>
+```
+The iframe tag doesn't mean much without its attributes. Here we determined the path of the page to be displayed in the frame with the ```src``` attribute.
+
+# width and height Attributes in iframe
+The width and height attributes are used to determine the width and height of the frame.
+
+**Example:**
+```html
+<iframe src="https://venge.io" width="380" height="480"></iframe>
+```
+Values are again given in ```px```. However, it is also accepted as a percentage. So ```width="100%"``` will work.
+
+Remove Default Border in Iframe
+Iframes come with a border by default. To remove this, adding ```frameborder="0"``` will be sufficient.
+
+**Example:**
+```html
+<iframe src="https://venge.io" frameborder="0">
+```
+It is also possible to edit this with CSS, for example;
+```html
+<iframe src="https://venge.io" style="border: none;"></iframe>
+```
+# Closing the Iframe Scroll
+To prevent the content you upload in the iframe from being scrolled, you can give the scrolling attribute a value of no.
+
+**Example:**
+```html
+<iframe name="frame_adi" src="https://venge.io" scrolling="no"></iframe>
+```
+
+# Showing the Target Link in Iframe
+If we want the page to open in the iframe when the ```<a>``` tag is clicked, we should use the following method:
+```html
+<a href="url" target="frame_name">open frame_name</a>
+    
+<iframe name="frame_name"></iframe>
+```
+
+The important thing here is that the ```target="frame_name"``` part in the ```<a>``` tag and the ```name="frame_name"``` part in the ```<iframe>``` tag are equal. Because we specify the target with the target attribute in the ```<a>``` tag. In other words, we select the frame that will open when clicked.
+#Preventing Your Web Page from Opening with Iframe
+I'm already saying that to do this, it is necessary to use different technologies. I will share with you an example made with Javascript.
+
+**Example:**
+```html
+<script>
+if (self != top) {
+	top.location.replace(location.href);
+}
+</script>
+```
+What's new here is the ```<script>``` tag, which allows us to write Javascript code within HTML pages.
+
+JavaScript is a programming language that developers use to create interactive web pages. It allows you to dynamically add and change the contents of HTML pages. JavaScript is a powerful programming language that brings web pages to life and is used to make them interactive.
