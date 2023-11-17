@@ -805,10 +805,10 @@ Don't be intimidated by the length of the code. Actually, we are learning HTML r
 ```a.button.button-green``` - We changed the background color of the class value button-green to green.
 
 ```html
-<a href="#" class="button">Normal Buton</a>
-<a href="#" class="button button-red">Kırmızı Buton</a>
-<a href="#" class="button button-green">Yeşil Buton</a>
-<a href="#" class="button button-blue">Mavi Buton</a>
+<a href="#" class="button">Normal Button</a>
+<a href="#" class="button button-red">Red Button</a>
+<a href="#" class="button button-green">Green Button</a>
+<a href="#" class="button button-blue">Blue Button</a>
 
 <style>
 a.button {
