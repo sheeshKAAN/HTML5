@@ -883,7 +883,7 @@ To prevent the content you upload in the iframe from being scrolled, you can giv
 
 **Example:**
 ```html
-<iframe name="frame_adi" src="https://venge.io" scrolling="no"></iframe>
+<iframe name="frame_name" src="https://venge.io" scrolling="no"></iframe>
 ```
 
 # Showing the Target Link in Iframe
@@ -895,6 +895,7 @@ If we want the page to open in the iframe when the ```<a>``` tag is clicked, we 
 ```
 
 The important thing here is that the ```target="frame_name"``` part in the ```<a>``` tag and the ```name="frame_name"``` part in the ```<iframe>``` tag are equal. Because we specify the target with the target attribute in the ```<a>``` tag. In other words, we select the frame that will open when clicked.
+
 #Preventing Your Web Page from Opening with Iframe
 I'm already saying that to do this, it is necessary to use different technologies. I will share with you an example made with Javascript.
 
