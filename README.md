@@ -735,3 +735,23 @@ In this code, we selected all ```<div>``` tags and made the background color yel
     color: red;
 }
 ```
+It was healthier this way, we selected all tags whose id was container instead of the ```<div>``` tag. If we wanted to select only div tags whose id is container, we would change it like this:
+```css
+div#container {
+    background: yellow;
+    color: red;
+}
+```
+In this example, we first select the name of the tag to be specifically selected, that is, div in the example here, and then, if it is defined with id, we make the selection by putting a **#** sign in front of it and writing its value.
+
+# class Attribute 
+We have already explained the ```id``` attribute, the class attribute is also used for the same function. So specifically to be able to mark a tag and then edit it in CSS. However, the difference from the id attribute is that ```class``` attributes can be used more than once with the same name. This is a very useful thing because we write the same ```class``` name in tags that have the same style but have slight differences and solve the problem with a single CSS code.
+
+**Example:**
+```html
+<a href="#" class="button">Normal Buton</a>
+<a href="#" class="button button-red">Kırmızı Buton</a>
+<a href="#" class="button button-green">Yeşil Buton</a>
+<a href="#" class="button button-blue">Mavi Buton</a>
+```
+
