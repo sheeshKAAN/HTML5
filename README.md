@@ -788,7 +788,7 @@ Don't be intimidated by the length of the code. Actually, we are learning HTML r
 
 ```color: #fff;``` - Here we set the default text color as white.
 
-```display:** inline-block;``` - Here we set the display value as inline-block, we have seen these display values in previous lessons. Normally the <a> tag was an inline tag, but we set it to be both inline and block with CSS. This means that it will be inline, but it will also be at the block level to show the other CSS properties I will give.
+```display: inline-block;``` - Here we set the display value as inline-block, we have seen these display values in previous lessons. Normally the <a> tag was an inline tag, but we set it to be both inline and block with CSS. This means that it will be inline, but it will also be at the block level to show the other CSS properties I will give.
 
 ```line-height: 50px;``` - Here we set the line height as 50px, which automatically centered the text from top and bottom within 50px.
 
@@ -803,3 +803,34 @@ Don't be intimidated by the length of the code. Actually, we are learning HTML r
 ```a.button.button-blue``` - We set the background color of the class value button-blue to blue.
 
 ```a.button.button-green``` - We changed the background color of the class value button-green to green.
+
+```html
+<a href="#" class="button">Normal Buton</a>
+<a href="#" class="button button-red">Kırmızı Buton</a>
+<a href="#" class="button button-green">Yeşil Buton</a>
+<a href="#" class="button button-blue">Mavi Buton</a>
+
+<style>
+a.button {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.button.button-red {
+    background-color: red;
+}
+
+a.button.button-blue {
+    background-color: blue;
+}
+
+a.button.button-green {
+    background-color: green;
+}
+</style>
+```
