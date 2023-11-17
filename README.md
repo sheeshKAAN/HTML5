@@ -852,6 +852,9 @@ Of course, we cannot do this for every web page because most web pages prevent v
 ```html
 <iframe src="https://venge.io"></iframe>
 ```
+
+**Editor:**
+![Screenshot_2023-11-17-21-45-17-975-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f6a256da-a892-4b01-9a62-d7cbd0180217)
 The iframe tag doesn't mean much without its attributes. Here we determined the path of the page to be displayed in the frame with the ```src``` attribute.
 
 # width and height Attributes in iframe
