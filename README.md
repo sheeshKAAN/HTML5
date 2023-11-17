@@ -663,7 +663,8 @@ The most used of this tag type is the ```<span>``` tag. As its name suggests, it
 
 **Example:**
 ```html
-During a normal text, <span>this field written in span</span> will not look any different from the others.```
+During a normal text, <span>this field written in span</span> will not look any different from the others.
+```
 
 # Inline Level Tags
 ```<a>```
