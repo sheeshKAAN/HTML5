@@ -796,7 +796,7 @@ Don't be intimidated by the length of the code. Actually, we are learning HTML r
 
 ```border-radius: 5px;``` - Here, we softened all four edges of the button by 3px.
 
-```text-decoration: none```; - Here, ```<a>``` tags are underlined by default, we removed this line.
+```text-decoration: none;``` - Here, ```<a>``` tags are underlined by default, we removed this line.
 
 ```a.button.button-red``` - The explanation here is actually, among the ```<a>``` tags, select the tag or tags whose class value is button and which is also button-red. And we made its color red.
 
