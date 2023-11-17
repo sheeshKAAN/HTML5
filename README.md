@@ -864,7 +864,7 @@ The width and height attributes are used to determine the width and height of th
 ```
 
 **Edıtor:**
-![Screenshot_2023-11-17-21-43-45-977-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/c16a09b3-a565-4025-8431-eb3ffb3855cd)
+![Screenshot_2023-11-17-21-45-17-975-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8329756d-0279-48c5-9b9a-5d0f543986b2)
 Values are again given in ```px```. However, it is also accepted as a percentage. So ```width="100%"``` will work.
 
 Remove Default Border in Iframe
