@@ -835,6 +835,9 @@ a.button.button-green {
 </style>
 ```
 
+**Editor:**
+![Screenshot_2023-11-17-21-58-26-538-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/20901878-d75d-4d25-b374-e10046612703)
+
 There is only one tag here that we don't know right now, which is the ```<style>``` tag, I didn't explain it because it is related to CSS. But to put it simply, CSS codes can normally be written in 3 different ways on the page. One is by adding a file with the extension .css to the page with the ```<link>``` tag, the second is by using the ```style=""``` attribute in the tags on the page, and the third is by writing CSS code directly into the ```<style>``` tags. In this example we did exactly that.
 
 I think we understand clearly why we need to use these attributes. In other words, it is an attribute entirely related to CSS.
