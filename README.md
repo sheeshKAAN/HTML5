@@ -913,3 +913,12 @@ if (self != top) {
 What's new here is the ```<script>``` tag, which allows us to write Javascript code within HTML pages.
 
 JavaScript is a programming language that developers use to create interactive web pages. It allows you to dynamically add and change the contents of HTML pages. JavaScript is a powerful programming language that brings web pages to life and is used to make them interactive.
+
+# File Paths in HTML
+Although this issue may seem unimportant, people who are new to HTML courses usually give the following way when they want to show images or something;
+
+**Example:**
+```html
+<img src="C:\Users\test\Desktop\a.png">
+```
+In this logic, they think that it will work when they put it on the server, but they are wrong. When giving file paths, we can give them as follows;
