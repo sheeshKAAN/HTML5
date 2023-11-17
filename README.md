@@ -750,8 +750,7 @@ We have already explained the ```id``` attribute, the class attribute is also us
 **Example:**
 ```html
 <a href="#" class="button">Normal Buton</a>
-<a href="#" class="button button-red">Kırmızı Buton</a>
-<a href="#" class="button button-green">Yeşil Buton</a>
-<a href="#" class="button button-blue">Mavi Buton</a>
+<a href="#" class="button button-red">Red Buton</a>
+<a href="#" class="button button-green">Green Buton</a>
+<a href="#" class="button button-blue">Blue Buton</a>
 ```
-
