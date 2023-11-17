@@ -798,7 +798,7 @@ Don't be intimidated by the length of the code. Actually, we are learning HTML r
 
 ```text-decoration: none;``` - Here, ```<a>``` tags are underlined by default, we removed this line.
 
-```a.button.button-red``` - The explanation here is actually, among the ```<a>``` tags, select the tag or tags whose class value is button and which is also button-red. And we made its color red.
+```a.button.button-red``` - The explanation here is actually, among the ```<a>``` tags, select the tag or tags whose ```class``` value is ```button``` and which is also ```button-red```. And we made its color red.
 
 ```a.button.button-blue``` - We set the background color of the class value button-blue to blue.
 
