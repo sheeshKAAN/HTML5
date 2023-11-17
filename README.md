@@ -784,22 +784,22 @@ a.button.button-green {
 ```
 Don't be intimidated by the length of the code. Actually, we are learning HTML right now, but since CSS and JavaScript are directly connected to HTML, I will add such information. You will learn all the details from the CSS and JavaScript pages in the following processes. Now let's examine the codes one by one.
 
-**background-color:** #333; - Here we set the background color to black by default.
+```background-color: #333;``` - Here we set the background color to black by default.
 
-**color:** #fff; - Here we set the default text color as white.
+```color: #fff;``` - Here we set the default text color as white.
 
-**display:** inline-block; - Here we set the display value as inline-block, we have seen these display values in previous lessons. Normally the <a> tag was an inline tag, but we set it to be both inline and block with CSS. This means that it will be inline, but it will also be at the block level to show the other CSS properties I will give.
+```display:** inline-block;``` - Here we set the display value as inline-block, we have seen these display values in previous lessons. Normally the <a> tag was an inline tag, but we set it to be both inline and block with CSS. This means that it will be inline, but it will also be at the block level to show the other CSS properties I will give.
 
-**line-height:** 50px; - Here we set the line height as 50px, which automatically centered the text from top and bottom within 50px.
+```line-height: 50px;``` - Here we set the line height as 50px, which automatically centered the text from top and bottom within 50px.
 
-**padding:** 0 15px; - Here, we gave 15px space on the right and left. In this way, the text will look smoother and will not stick to the right or left.
+```padding: 0 15px;``` - Here, we gave 15px space on the right and left. In this way, the text will look smoother and will not stick to the right or left.
 
-**border-radius:** 5px; - Here, we softened all four edges of the button by 3px.
+```border-radius: 5px;``` - Here, we softened all four edges of the button by 3px.
 
-**text-decoration:** none; - Here, <a> tags are underlined by default, we removed this line.
+```text-decoration: none```; - Here, ```<a>``` tags are underlined by default, we removed this line.
 
-**a.button.button-red** - The explanation here is actually, among the <a> tags, select the tag or tags whose class value is button and which is also button-red. And we made its color red.
+```a.button.button-red``` - The explanation here is actually, among the ```<a>``` tags, select the tag or tags whose class value is button and which is also button-red. And we made its color red.
 
-**a.button.button-blue** - We set the background color of the class value button-blue to blue.
+```a.button.button-blue``` - We set the background color of the class value button-blue to blue.
 
-**a.button.button-green** - We changed the background color of the class value button-green to green.
+```a.button.button-green``` - We changed the background color of the class value button-green to green.
