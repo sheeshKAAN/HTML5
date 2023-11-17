@@ -656,10 +656,9 @@ Of course, the ```<div>``` tag is normally used with certain attributes. You can
 ```<ul>```
 ```<video>```
 
-The ```
-<div>``` tag is an unstyled HTML tag. It is used as a container for other HTML tags. It is more related to CSS. The ```<div>``` tag is an unstyled HTML tag. It is often used as a container for other HTML tags.
+The ```<div>``` tag is an unstyled HTML tag. It is used as a container for other HTML tags. It is more related to CSS. The ```<div>``` tag is an unstyled HTML tag. It is often used as a container for other HTML tags.
 
-# Inline Level Tags 
+# Inline Level Labels
 The most used of this tag type is the ```<span>``` tag. As its name suggests, it is an inline tag type, meaning that there will be no distortion or change even when marking within the text. Just like the ```<div>``` tag, the ```<span>``` tag is an unstyled tag that is mainly used to identify inline elements and apply CSS or JavaScript to them.
 
 **Example:**
