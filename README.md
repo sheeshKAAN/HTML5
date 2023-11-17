@@ -709,9 +709,29 @@ It is not really important what the display level of a label is because these di
 Under normal circumstances, I will not explain each attribute specifically, but since these two attributes are the attributes we will use most frequently when doing **front-end** coding, I would like to mention them.
 
 **Example:**
-```html
+```css
 <div id="container"> ... </div>
 ```
 As you can see, the attribute usage is always the same as attribute="value". The important thing here is what does this id attribute do? In fact, it doesn't change anything in terms of appearance. To understand the purpose of using this attribute, it is necessary to understand a little CSS. The room is like this; 
 
 In CSS, it's all about choosing a tag and applying styles. For example, when we want to select all divs, we write a CSS code like this. (you may not find this meaningful right now, it doesn't matter)
+
+**Example:**
+```css
+div {
+    background-color: yellow;
+    color: red;
+}
+```
+In this code, we selected all ```<div>``` tags and made the background color yellow and the text color red. However, in front-end coding, it is often necessary to select and style specific divs, not every div. In this case, we use the ```id and``` ```class``` attribute. In our HTML example above, we added the attribute ```id="container"``` to the ```<div>``` tag. If it is defined as ```id```, it is defined within the framework of some rules.
+
+- IDs have been redesigned throughout the page. This means that you have an ```id=test"``` tag, that is, you cannot give the ```test``` value to another tag. For this reason, id is usually given to inclusive tags or tags that have only a single function throughout the page. 
+- The sign tag taken with ID is used as ```#container``` when used on the CSS side. Here is our example of ```container``` values in HTML. So, then, I would write in CSS like this that I want to process by selecting divs with container id values;
+
+**Example:**
+```css
+#container {
+    background: yellow;
+    color: red;
+}
+```
