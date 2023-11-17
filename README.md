@@ -705,3 +705,13 @@ During a normal text, <span>this field written in span</span> will not look any 
 
 It is not really important what the display level of a label is because these display levels can be changed with the help of CSS. So ```<div>``` is normally a block level tag, but we can turn it into an inline level tag with the help of CSS.
 
+# id and class Attributes in HTML 
+Under normal circumstances, I will not explain each attribute specifically, but since these two attributes are the attributes we will use most frequently when doing **front-end** coding, I would like to mention them.
+
+**Example:**
+```html
+<div id="container"> ... </div>
+```
+As you can see, the attribute usage is always the same as attribute="value". The important thing here is what does this id attribute do? In fact, it doesn't change anything in terms of appearance. To understand the purpose of using this attribute, it is necessary to understand a little CSS. The room is like this; 
+
+In CSS, it's all about choosing a tag and applying styles. For example, when we want to select all divs, we write a CSS code like this. (you may not find this meaningful right now, it doesn't matter)
