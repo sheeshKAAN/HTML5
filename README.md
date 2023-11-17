@@ -754,3 +754,52 @@ We have already explained the ```id``` attribute, the class attribute is also us
 <a href="#" class="button button-green">Green Buton</a>
 <a href="#" class="button button-blue">Blue Buton</a>
 ```
+
+In the codes above, we used the ```<a>``` tag to create a button, in this example our button goes to an address. Now, when you look at the codes above in the editor, nothing will appear visually because we will give this with CSS in a moment, but let's examine the attribute used first.
+
+Now, we added a class named ```button``` to each of them, but we also specified a second class name for each of them. This is because, in my opinion, these 3 buttons will look the same, only the background colors will be different. Therefore, instead of selecting each one separately and writing separate CSS, I gave the same class name to all 3 of them and will bring them all to the same appearance at once with CSS. Additionally, I will write the code that will change the background color in CSS for the 2nd class names. In short, even if you don't understand CSS, our CSS codes will look like this;
+
+```css
+a.button {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    line-height: 50px;
+    padding: 0 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+a.button.button-red {
+    background-color: red;
+}
+
+a.button.button-blue {
+    background-color: blue;
+}
+
+a.button.button-green {
+    background-color: green;
+}
+```
+Don't be intimidated by the length of the code. Actually, we are learning HTML right now, but since CSS and JavaScript are directly connected to HTML, I will add such information. You will learn all the details from the CSS and JavaScript pages in the following processes. Now let's examine the codes one by one.
+
+**background-color:** #333; - Here we set the background color to black by default.
+
+**color:** #fff; - Here we set the default text color as white.
+
+**display:** inline-block; - Here we set the display value as inline-block, we have seen these display values in previous lessons. Normally the <a> tag was an inline tag, but we set it to be both inline and block with CSS. This means that it will be inline, but it will also be at the block level to show the other CSS properties I will give.
+
+**line-height:** 50px; - Here we set the line height as 50px, which automatically centered the text from top and bottom within 50px.
+
+**padding:** 0 15px; - Here, we gave 15px space on the right and left. In this way, the text will look smoother and will not stick to the right or left.
+
+**border-radius:** 5px; - Here, we softened all four edges of the button by 3px.
+
+**text-decoration:** none; - Here, <a> tags are underlined by default, we removed this line.
+
+**a.button.button-red** - The explanation here is actually, among the <a> tags, select the tag or tags whose class value is button and which is also button-red. And we made its color red.
+
+**a.button.button-blue** - We set the background color of the class value button-blue to blue.
+
+**a.button.button-green** - We changed the background color of the class value button-green to green.
