@@ -922,3 +922,34 @@ Although this issue may seem unimportant, people who are new to HTML courses usu
 <img src="C:\Users\test\Desktop\a.png">
 ```
 In this logic, they think that it will work when they put it on the server, but they are wrong. When giving file paths, we can give them as follows;
+
+# File Paths
+- ```<img src="image.jpg">```
+It calls the **image.jpg** file located in the same location as the current folder.
+- ```<img src="img/image.jpg">```
+Calls the **image.jpg** file in the **img** folder under the current folder.
+- ```<img src="/img/image.jpg">```
+It calls the **image.jpg** file in the **img** folder under the main folder. The difference from the one above is that if it is preceded by **/**, it represents the home directory.
+- ```<img src="../image.jpg">```
+It calls the **image.jpg** file located in a folder above the current folder.
+- ```<img src="url/image.jpg">```
+This is the clearest way to give, but it is unnecessarily long. In fact, it is exactly the same as **/image.jpg**.
+
+In HTML, we generally need to specify file paths for;
+- HTML pages
+- Images
+- CSS Files
+- JavaScript Files
+- etc.
+
+# Specifying the Default Path in HTML
+The ```<base>``` tag is used to specify the default path in HTML. And it is written in the ```<head>``` tag in our codes.
+
+**Example:**
+```html
+<head>
+    ...
+    <base href="url">
+    ...
+</head>
+```
