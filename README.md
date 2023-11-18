@@ -953,3 +953,6 @@ The ```<base>``` tag is used to specify the default path in HTML. And it is writ
     ...
 </head>
 ```
+After doing this, if I use it as ```<img src="upload/img/resim.jpg">```, it will actually be interpreted as follows; ```<img src="url/upload/img/image.jpg">```
+
+So, to be precise, we can use this tag on our pages. You may be working on your own computer now, but in the future you will need to buy yourself a hosting or server so that you can publish the web pages you create. In such cases, this label will come in handy. If you look at the source code of this site right now, you will see the same code. To view the source, you can use the combination **CTRL + U on Windows** or **command + option + u** on macOs.
