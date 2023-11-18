@@ -315,7 +315,7 @@ This attribute represents an expression that alternatively describes the image w
 
 **Example:**
 ```html
-<img src="upload/cicek.png" alt="red rose flower">
+<img src="upload/flower.png" alt="red rose flower">
 ```
 Here, if the cicek.png file cannot be read, it will appear as Red Rose Flower.
 
@@ -328,7 +328,7 @@ The width and height attributes are used to determine the width and height of th
 
 **Example:**
 ```html
-<img src="upload/cicek.png" alt="red rose flower" width="200" height="100">
+<img src="upload/flower.png" alt="red rose flower" width="200" height="100">
 ```
 Here we set the image to 200px in width and 100px in height. The value entered in the width and height values must be a number and is always interpreted in px.
 
