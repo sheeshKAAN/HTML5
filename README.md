@@ -963,8 +963,71 @@ In our first HTML lesson, we learned about the ```<head>``` tag and said that it
 It is meant to provide the title of each tag defined within the <head> tag. These include the following tags:
 
 ```<title>``` - Sets the page title
+
 ```<style>``` - Enables the use of CSS within HTML
+
 ```<meta>``` - Used to define any header information.
+
 ```<link>``` - Used to include a CSS file on the page
+
 ```<script>``` - Enables the use of javascript in HTML. It is also useful for calling javascript files.
+
+
 ```<base>``` - This tag, which we learned in the last lesson, determines the default path.
+
+# ```<style>``` Tag
+This tag allows us to write CSS code within the HTML page.
+
+**Example:**
+```html
+<style>
+body {
+    background-color: #eee;
+}
+h1 {
+    font-size: 30px;
+}
+</style>
+```
+
+Although it is generally written in the ```<head>``` tag, it can also be written in the body from time to time. But there is a problem: since the codes are interpreted from top to bottom, the CSS codes must always be at the top, otherwise the styles will arrive after the page loads, which creates an ugly appearance.
+
+# ```<link>``` Tag
+This tag defines the relationship between the current page and the page to be called. For example, we can call a CSS file.
+
+**Example:**
+```html
+<link rel="stylesheet" type="text/css" href="stil.css">
+```
+
+# ```<meta>``` Tag
+The ```<meta>``` tag is used to define headers on web pages. For example, you can view the page's character encoding, description, keyword, author, etc. Used to define headers.
+
+Browsers use headers to determine how to display the page. Search engines generally interpret this header information, so determining this header information correctly is very important for SEO. SEO(Search Engine Optimization) ensures that web pages appear higher in search engines.
+
+# Usage areas of the ```<meta>``` tag
+
+- It is used to determine the character encoding of the page.
+```html
+<meta charset="UTF-8">
+```
+- It is used to determine the title of the page.
+```html
+<title> ... </title>
+```
+- It is used to determine the description of the page.
+```html
+<meta name="description" content="...">
+```
+- It is used to determine the keywords of the page.
+```html
+<meta name="keywords" content="HTML, CSS, JavaScript">
+```
+- It is used to determine the author of the page.
+```html
+<meta name="author" content="sheeshKAAN">
+```
+- It is used to refresh the page within a specified period of time. (In this example, we set it to 10 seconds)
+```html
+<meta http-equiv="refresh" content="10">
+```
