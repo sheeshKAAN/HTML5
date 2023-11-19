@@ -1007,27 +1007,44 @@ Browsers use headers to determine how to display the page. Search engines genera
 
 # Usage areas of the ```<meta>``` tag
 
-- It is used to determine the character encoding of the page.
+- It is used to determine the character encoding of the page;
 ```html
 <meta charset="UTF-8">
 ```
-- It is used to determine the title of the page.
+- It is used to determine the title of the page;
 ```html
 <title> ... </title>
 ```
-- It is used to determine the description of the page.
+- It is used to determine the description of the page;
 ```html
 <meta name="description" content="...">
 ```
-- It is used to determine the keywords of the page.
+- It is used to determine the keywords of the page;
 ```html
 <meta name="keywords" content="HTML, CSS, JavaScript">
 ```
-- It is used to determine the author of the page.
+- It is used to determine the author of the page;
 ```html
 <meta name="author" content="sheeshKAAN">
 ```
-- It is used to refresh the page within a specified period of time. (In this example, we set it to 10 seconds)
+- It is used to refresh the page within a specified period of time. (In this example, we set it to 10 seconds);
 ```html
 <meta http-equiv="refresh" content="10">
 ```
+
+# Setting the Viewport
+Have you ever tried to view the HTML pages you prepared on mobile? If you have not set the viewport value, that is, the view setting, then you are not creating mobile-sensitive web pages. Normally, adjusting the appearance on mobile is something that can be done with CSS, but on the HTML side, there is a tag to adjust the viewport.
+```html
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+```
+In this example, the important thing is the values in the ```content```.
+
+```width=device-width``` - Sets the width as the width of the device entered in the view settings. In this logic, if entered from a mobile device, the mobile width is determined, and if entered from a normal computer, the resolution of the browser is determined.
+
+```initial-scale=1.0``` - The immediacy level of the page. 1.0 = 100% - If you want to make it larger, for example, you can set it to 1.7 and test it.
+
+```user-scalable=no``` - Used to prevent users from zooming the page.
+
+```minimum-scale=1.0``` - Minimum proximity value of the page. (1.0 = 100%)
+
+```maximum-scale=1.0``` - Maximum proximity value of the page. (1.0 = 100%)
