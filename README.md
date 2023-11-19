@@ -1048,3 +1048,24 @@ In this example, the important thing is the values in the ```content```.
 ```minimum-scale=1.0``` - Minimum proximity value of the page. (1.0 = 100%)
 
 ```maximum-scale=1.0``` - Maximum proximity value of the page. (1.0 = 100%)
+
+In short, when we add this code, the proximity will appear as 100%, it will not zoom and the width will be the width of the entered device. If you write ```width=1300``` instead of ```width=device-width```, you will set the width as **1300px**, but they do not have such uses.
+
+# ```<script>``` Tag
+This tag is used to run Java Script codes within the HTML page.
+
+**Example:**
+```html
+<script>
+document.body.innerHTML = 'We changed the content of the body tag.';
+</script>
+```
+# ```<base>``` Tag
+This tag is used to determine the default starting values of all the addresses we link to within the page.
+
+**Example:**
+```html
+<base href="url/upload" target="_blank">
+```
+
+When you write this in the ```<head>``` tag, all the addresses you link to will be searched under ```url/upload```. ```target="_blank"``` causes each link to open in a new tab.
