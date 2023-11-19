@@ -956,3 +956,15 @@ The ```<base>``` tag is used to specify the default path in HTML. And it is writ
 After doing this, if I use it as ```<img src="upload/img/resim.jpg">```, it will actually be interpreted as follows; ```<img src="url/upload/img/image.jpg">```
 
 So, to be precise, we can use this tag on our pages. You may be working on your own computer now, but in the future you will need to buy yourself a hosting or server so that you can publish the web pages you create. In such cases, this label will come in handy. If you look at the source code of this site right now, you will see the same code. To view the source, you can use the combination **CTRL + U on Windows** or **command + option + u** on macOs.
+
+# Headers in HTML
+In our first HTML lesson, we learned about the ```<head>``` tag and said that it is one of the basic tags. We also mentioned that what is written in the ```<body>``` tag will be shown to the end user, and all other codes that will run in the background must be written in ```<head>```. In fact, in the same example, we determined the title of the web page by using the ```<title>``` tag, which is also a default tag, within the ```<head>``` tag.
+
+It is meant to provide the title of each tag defined within the <head> tag. These include the following tags:
+
+```<title>``` - Sets the page title
+```<style>``` - Enables the use of CSS within HTML
+```<meta>``` - Used to define any header information.
+```<link>``` - Used to include a CSS file on the page
+```<script>``` - Enables the use of javascript in HTML. It is also useful for calling javascript files.
+```<base>``` - This tag, which we learned in the last lesson, determines the default path.
