@@ -1,30 +1,3 @@
-Greetings everyone, if you want to get a good start in software, starting with web-based HTML will be a good start for you.
-
-My aim in this github project is to give you HTML lessons for those who are new to the software and want to advance on the web.
-
-I will tell you about these html tutorials, but before looking at the tutorials, I want to briefly talk a little about the web.
-# Web Software
-Web software is software used to add features to the HTML markup language that forms the basis of websites. Thanks to this software, websites can update themselves automatically without the need for a person to edit them.
-
-There are no restrictions in web software; you can make any project you have in mind concrete by making the necessary preparations. The main factor here is that web software is not created in a single language. Web software is developed using many languages ​​such as **Javascript**, **HTML**, **CSS**, **Python**, **PHP**. The important thing here is which language will best meet your needs. This selection is made by professionals and they do the planning and coding.
-
-# Key Components of Web Content
--  **Frontend:**
-  
-Frontend is the surface layer of the web application that users directly interact with and can see visually. Technologies such as HTML, CSS and JavaScript are used in the frontend development process.
--  **Backend:**
-  
-The backend is managed throughout the web server and is the part that users cannot see. The backend contains transfers such as database data and server-side programming. Technologies used in the backend development process include languages ​​such as PHP, Python, Ruby and Java.
--  **Database:**
-  
-The he database allows storing and managing data used in web applications. There are two main types of databases: SQL and NoSQL. These types include popular database systems such as MySQL, PostgreSQL, MongoDB and Couchbase.
-# Web
-Web software offers significant value to businesses and users today. Developing web applications can be accomplished successfully by understanding the basic components and development processes and choosing the right approaches. Developers' and project managers' planning and implementation of web software projects by taking these processes and approaches into consideration will help improve the quality, performance and user satisfaction of the application.
-# What is WebGL?
-It is a web standard that aims to provide 3D graphic drawing in the web environment. Based on OpenGL ES 2.0, WebGL is not very different from OpenGL ES, although it has undergone minor changes to adapt to languages such as JavaScript with automatic memory management. It makes it possible to draw 3D graphics on HTML5's Canvas element without requiring the installation of any plug-in in the compatible web browser.
-
-Yes, after briefly summarizing the web part, we can now get into HTML.
-
 # What is HTML?
 HTML **(Hypertext Markup Language)** is a markup language used when creating web pages, it forms the basis of the web page. CSS, which makes it look more beautiful and organized, is JavaScript, which allows it to be used in a more dynamic structure. HTML5 is the fifth version of the HTML markup standard, one of the core technologies of the Internet.
 
