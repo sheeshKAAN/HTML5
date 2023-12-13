@@ -274,7 +274,7 @@ When clicked, Venge will open in a new tab. There is also the option to open wit
     
 <iframe name="browser" width="600" height="300"></iframe>
 ```
-# Images (Pictures) in HTML 
+# Images (Pictures) in HTML⁸
 In HTML, images are organized with the ```<img>``` tag. The ```<img>``` tag does not imply poor quality and is an example of a self-closing tag type. Let's put it together and examine it.
 
 **Example:**
@@ -330,7 +330,7 @@ We learned about the anchor tag in the previous lesson. Now let's see how the tw
     <img src="image.png">
 </a>
 ```
-# HTML map Tag 
+# HTML map Tag⁹ 
 We can link by marking certain points on the image with the ```<map>``` tag. Let's look at an example now.
 ```html
 <img src="https://prototurk.com/upload/img/cihaz.jpg" alt="devices" usemap="#ptmap">
