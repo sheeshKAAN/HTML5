@@ -20,7 +20,7 @@ Yes, now that we have made the definition, we can move on to the software part. 
  
 - ```<h1>```: This tag used for headings is ```<h1> <h2>, <h3>``` etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between ```<h1>``` and ```<h6>```.
 
-# Tag Structure in HTML
+# Tag Structure in HTML (1.1)
 Tags are used when marking texts in HTML. And when defining tags, the tag name is written inside ```< less than and >``` greater than signs.
 That is, they are defined as ```<tagName>```. Additionally, opened tags are closed in the same way with **/** at the beginning.
 That is, it is defined as ```<tagName> .. </tagName>```. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
@@ -83,23 +83,23 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
 # Tags in HTML
 Tags form the basis of HTML. Tags are predefined parts that we use when marking texts. So you cannot define a label yourself.
 
-**Example:**
+**Example:** _(4.1)_
 ```html
 <h1> ... </h1>
 ```
 In some tags, we do not have to close the tags because they are self-closing tags. The structure of these tags is as follows;
 
-**Example:**
+**Example:** _(4.3)_
 ```html
 <img .../>
 ```
-Now let's define a real tag and see its usage.
+Now let's define a real tag and see its usage. _(4.4)_
 ```html
 <p> this is a paragraph tag </p>
 ```
 The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and short texts in the ```<p>``` tag. Except for a few tags in HTML, tags are useless. In other words, they must be used in a qualified manner. What is quality? We will come to this topic in the next lesson.
 
-**Example:**
+**Example:** _(4.5)_
 ```html
 <a href="https://venge.io/">venge</a>
 ```
@@ -113,7 +113,7 @@ We used the linking tag here. So, when the prototurk text is clicked, we created
 ```
 As you can see, they are defined as attribute="value". And a tag can take more than one attribute. Now let's examine it through a real example.
 
-**Example:**
+**Example:** _(5.1)_
 ```html
 <img src="test.png">
 ```
@@ -165,7 +165,7 @@ Let's give more detailed information about these.
 # ```<b>``` and ```<strong>``` Tags 
 It thickens when visible on both labels. The difference between each other is that the ```<b>``` tag's markup only makes it bold, while the ```<strong>``` tag's markup both makes it bold and indicates that the text is an important text when interpreted by the browsers.
 
-**Example:**
+**Example:** 
 ```html
 <b>Hello KAAN</b>
 <strong>Have are you?</strong>
@@ -237,7 +237,7 @@ Now that we have detailed the tags a bit, we can move on to the comment lines. C
 # Comment Lines in HTML 
 Comment lines are generally blocks written by the person who wrote the code as a reminder. Because comment lines are not visible to the end user, they can only be seen by looking at the source of the page. Therefore, remember that comments can be read by anyone. When defining, everything between the lines starting with ```<!--``` and ending with ```-->``` is perceived as a comment.
 
-**Example:**
+**Example:** _(6.1)_
 ```html
 <!-- I wrote a paragraph example here --> 
 <p> this is a paragraph </p>
@@ -247,7 +247,7 @@ In the example above, even if there is an ```<html>``` tag in the comment line, 
 # Links in HTML
 When an article is clicked on your web page, you need to close it or create a link to another page or another file on another website. While doing this, we create it with the ```<a>``` tag in HTML.
 
-**Example:**
+**Example:** _(6.2)_
 ```html
 <a href="https://google.com/tr">go to google</a>
 ```
