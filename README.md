@@ -65,7 +65,7 @@ The <img> tag is used to display images in HTML. If you remember, we mentioned t
 ```html
 <img src="test.png" alt="Displayed when there is no picture." title="It only appears when you hover over this title." width="300" height="200">
 ```
-# Listing in HTML
+# Listing in HTML⁴
 In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` tags.
 
 **Example:**
@@ -80,7 +80,7 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
 **Editor:**
 ![Screenshot_2023-11-16-00-13-17-845-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f7dcff37-fd32-4f69-b1b2-e07d6b504eac)
 
-# Tags in HTML
+# Tags in HTML⁵
 Tags form the basis of HTML. Tags are predefined parts that we use when marking texts. So you cannot define a label yourself.
 
 **Example:**
