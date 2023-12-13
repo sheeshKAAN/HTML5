@@ -353,7 +353,7 @@ The point to note here is that we used ```usemap="#ptmap"``` in the ```<img>``` 
 
 Yes, now let's take a look at the lists and tables.
 
-# Tables in HTML
+# Tables in HTML¹⁰
 Tables consist of rows and columns. In addition, the table has a header, the content part, and a bottom part called the footer. Of course, each of these has a tag equivalent in HTML.
 
 **Example:**
