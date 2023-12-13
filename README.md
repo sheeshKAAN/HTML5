@@ -317,6 +317,8 @@ In HTML, images are organized with the ```<img>``` tag. The ```<img>``` tag does
 ```html
 <img src="URL">
 ```
+**_(8.1)_**
+
 In this example, a link to an image is given to the src attribute. Here, if you wish, you can remove the site address and give the image link. In other words, if the above example was to be displayed on this site, it could also be defined as ```/upload/img/test.jpg```.
 
 # subAttribute 
@@ -326,6 +328,9 @@ This attribute represents an expression that alternatively describes the image w
 ```html
 <img src="upload/flower.png" alt="red rose flower">
 ```
+**_(8.2)_**
+
+
 Here, if the cicek.png file cannot be read, it will appear as Red Rose Flower.
 
 
@@ -339,6 +344,8 @@ The width and height attributes are used to determine the width and height of th
 ```html
 <img src="upload/flower.png" alt="red rose flower" width="200" height="100">
 ```
+**_(8.3)_**
+
 Here we set the image to 200px in width and 100px in height. The value entered in the width and height values must be a number and is always interpreted in px.
 
 # Showing the Image in Another File 
@@ -348,6 +355,8 @@ Let's say you want to display another image in a higher directory of the directo
 ```html
 <img src="../img/test.png" alt="Test">
 ```
+**_(8.4)_**
+
 Instead of the directory where you run this code, it will go to a higher directory and search for test.png under the img folder. If we wanted to go 2 upper folders, we would use ```../../```.
 # Showing Images in Link 
 We learned about the anchor tag in the previous lesson. Now let's see how the two tags are used together.
@@ -358,6 +367,7 @@ We learned about the anchor tag in the previous lesson. Now let's see how the tw
     <img src="img/file" alt="name">
 </a>
 ```
+**_(8.5)_**
 # Linking to Images
 
 **Example**
@@ -366,6 +376,7 @@ We learned about the anchor tag in the previous lesson. Now let's see how the tw
     <img src="image.png">
 </a>
 ```
+**_(8.6)_**
 # HTML map Tag⁹ 
 We can link by marking certain points on the image with the ```<map>``` tag. Let's look at an example now.
 ```html
@@ -377,6 +388,7 @@ We can link by marking certain points on the image with the ```<map>``` tag. Let
     <area shape="rect" coords="444,95,834,408" href="computer.html" alt="Computer">
 </map>
 ```
+**_(9.1)_**
 Initial value ```(105)``` - Distance from left Second 
 value ```(249)``` - Distance from top Third value 
 ```(161)``` - Distance from left + width Fourth value 
@@ -407,6 +419,7 @@ Tables consist of rows and columns. In addition, the table has a header, the con
     </tbody>
 </table>
 ```
+**_(10.1)_**
 
 **Editor:**
 ![Screenshot_2023-11-16-00-23-06-065-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/d08b27d0-f81b-4f59-bb09-c779ba62a5dc)
@@ -433,6 +446,8 @@ The ```<thead>``` tag is used to determine the header part of the table. It cont
     </tbody>
 </table>
 ```
+**_(10.2)_**
+
 **Edıtor:**
 ![Screenshot_2023-11-16-00-23-38-154-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/17b1c416-48a9-4df7-875b-1f156d965444)
 # Table Footer
@@ -465,6 +480,7 @@ At the same time, the ```<tfoot>``` tag is used to determine the footer of the t
     </tfoot>
 </table>
 ```
+**_(10.3)_**
 
 **Editor:**
 ![Screenshot_2023-11-16-13-22-01-163-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/30bddba8-a449-4928-a7f2-c1580690eaca)
@@ -493,11 +509,13 @@ In a table The colspan attribute is used to combine columns in a table, and the 
     </tbody>
 </table>
 ```
+**_(10.4)_**
+
 In this example, I combined the 2 rows by adding the 1st column, that is, the year value, in the first row, ```rowspan="2"```. So, as you can see in the 2nd line, I did not write the year again because I combined the 2 lines at the top. In the 2nd row, this time I combined 2 columns. I did this by typing ```colspan="2"```. In other words, I printed the Name and Profession fields in a single column.
 
 **Editor:**
 ![Screenshot_2023-11-16-13-30-56-938-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8a845d54-6924-4f65-b162-140186cb0d3c)
-# Lists in HTML
+# Lists in HTML¹¹
 In HTML, lists are divided into ordered and unordered. Unordered lists are written in the ```<ul>``` tag, ordered lists are written in the ```<ol>``` tag. And each list element must be written within the ```<li>``` tag.
 # Unordered List <ul> 
 We will use the ```<ul>``` tag to create an unordered list.
@@ -510,6 +528,7 @@ We will use the ```<ul>``` tag to create an unordered list.
     <li>tea</li>
 </ul>
 ```
+**_(11.1)_**
 
 **Editor:**
 ![Screenshot_2023-11-16-20-08-02-096-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f13deec3-f468-462d-a59b-65d0b0fc06c7)
@@ -526,6 +545,7 @@ There is a filled circle at the beginning of each list element, you can change t
     <li>tea</li>
 </ul>
 ```
+**_(11.2)_**
 
 **Edıtor:**
 ![Screenshot_2023-11-16-20-08-28-649-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/89983e46-90ad-43ee-962a-de202fc7866e)
@@ -540,6 +560,7 @@ The ```<ol>``` tag is used to create an ordered list.
    <li>Tags in HTML</li> 
 </ol>
 ```
+**_(11.3)_**
 
 **Editor:**
 ![Screenshot_2023-11-16-20-08-58-896-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/29a6c941-986e-46cd-a25d-7da12180d48b)
@@ -553,6 +574,7 @@ You can use the ```start``` attribute to specify where the counting starts
    <li>Tags in HTML</li> 
 </ol>
 ```
+**_(11.4)_**
 
 **Editor:**
 ![Screenshot_2023-11-16-20-10-34-221-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/24ced8cd-27c2-45bb-bdf3-e59891d0e9c7)
@@ -597,6 +619,7 @@ In general, we will need to use nested lists frequently. When using it, a new li
     </li>
 </ul>
 ```
+**_(11.5)_**
 
 **Editor:**
 ![Screenshot_2023-11-16-23-16-11-831-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/b8574ed3-c289-47b2-9e90-955180093607)
@@ -612,6 +635,7 @@ You can also create description lists in HTML. So you can create a list and use 
     <dd>Nobel Prize-winning German theoretical physicist of Jewish origin</dd>
 </dl>
 ```
+**_(11.6)_**
 
 **Editor:**
 ![Screenshot_2023-11-16-23-21-56-959-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/3e4d8d4a-474e-4bb8-981d-75c1a79cf86e)
