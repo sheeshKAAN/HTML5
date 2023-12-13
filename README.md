@@ -56,7 +56,7 @@ This example is both a self-closing label type and a combined label example, wit
 <meta content="description" content="explanation...">
 ```
 **_(1.3)_**
-# Links in HTML²
+# Links in HTML[²](https://github.com/sheeshKAAN/HTML5/tree/main/Group-2)
 The <a> tag is used to link to an address in HTML. In this example, the href link is used to determine the address to go to when clicked. Attributes are used to specify more information about HTML tags.
 
 **Example:**
