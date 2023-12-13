@@ -36,7 +36,7 @@ You will understand and learn their distinction better in the following lessons,
 ```html
 <title> ... </title>
 ```
-[**_(1.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
+[_(1.1)_](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
 
 Everything is going well so far, now let's talk a little about the qualities.
 
