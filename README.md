@@ -37,6 +37,7 @@ You will understand and learn their distinction better in the following lessons,
 <title> ... </title>
 ```
 **_(1.1)_**
+
 Everything is going well so far, now let's talk a little about the qualities.
 
 # Attribute Structure in HTML
@@ -47,6 +48,7 @@ After creating the tags, it is necessary to examine the use of the attributes th
 <meta charset="UTF-8">
 ```
 **_(1.2)_**
+
 This example is both a self-closing label type and a combined label example, with the character set as the key and the UTF-8 value as the value. While some existing keys and values ​​represent certain things, some existing values ​​may be in an expression that you specify.
 
 **Example:**
@@ -93,6 +95,7 @@ Tags form the basis of HTML. Tags are predefined parts that we use when marking 
 <h1> ... </h1>
 ```
 **_(4.2)_**
+
 In some tags, we do not have to close the tags because they are self-closing tags. The structure of these tags is as follows;
 
 **Example:**
@@ -100,11 +103,13 @@ In some tags, we do not have to close the tags because they are self-closing tag
 <img .../>
 ```
  **_(4.3)_**
+ 
 Now let's define a real tag and see its usage.
 ```html
 <p> this is a paragraph tag </p>
 ```
 **_(4.4)_**
+
 The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and short texts in the ```<p>``` tag. Except for a few tags in HTML, tags are useless. In other words, they must be used in a qualified manner. What is quality? We will come to this topic in the next lesson.
 
 **Example:**
@@ -112,6 +117,7 @@ The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and s
 <a href="https://venge.io/">venge</a>
 ```
  **_(4.5)_**
+ 
 We used the linking tag here. So, when the prototurk text is clicked, we created a link that will go to prototurk.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
 # Attributes in HTML⁵
 **One important thing in HTML is attributes**. Qualifiers are the parts used inside the labels and serve to fulfill the label's instructions. Attributes are generally used as ```attribute="value"```, but in some cases you may also see attributes without a value. Attribute values ​​must always be written in quotes.
@@ -121,6 +127,7 @@ We used the linking tag here. So, when the prototurk text is clicked, we created
 <label attribute1="value" attribute2="value"></label>
 ```
 **_(5.1)_**
+
 As you can see, they are defined as attribute="value". And a tag can take more than one attribute. Now let's examine it through a real example.
 
 **Example:**
@@ -128,6 +135,7 @@ As you can see, they are defined as attribute="value". And a tag can take more t
 <img src="test.png">
 ```
 **_(5.2)_**
+
 Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
 
 We will see what we have learned in more detail in the following sections, these are just preliminary information.
@@ -247,6 +255,7 @@ This tag is used to designate the text as superscript. For example, when we say 
 m<sup>2</sup>
 ```
 **_(6.9)_**
+
 Now that we have detailed the tags a bit, we can move on to the comment lines. Comment lines will really come in handy.
 
 # Comment Lines in HTML 
@@ -258,6 +267,7 @@ Comment lines are generally blocks written by the person who wrote the code as a
 <p> this is a paragraph </p>
 ```
 **_(6.10)_**
+
 In the example above, even if there is an ```<html>``` tag in the comment line, **it will not appear**.
 
 # Links in HTML
@@ -268,6 +278,7 @@ When an article is clicked on your web page, you need to close it or create a li
 <a href="https://google.com/tr">go to google</a>
 ```
  **_(6.12)_**
+ 
 When you click on Go to Google here, you will go to **google.com.tr**. In this way, a link is made from one page to another page. 
 
 As seen in the example, the href attribute is used to determine the address to go to when clicked. The ```<a>``` tag does not only contain the href attribute, it can be used with many other attributes.
@@ -286,6 +297,7 @@ Apart from href, there is also a target attribute. With this attribute, we deter
 <a href="https://venge.io/" target="_blank">Venge</a>
 ```
 **_(7.1)_**
+
 When clicked, Venge will open in a new tab. There is also the option to open within iframes. Let's give him an **example:**
 ```html
 <p> Click <a href="https://venge.io/" target="browser">to open Venge!
