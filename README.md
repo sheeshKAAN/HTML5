@@ -61,7 +61,7 @@ The <a> tag is used to link to an address in HTML. In this example, the href lin
 
 **Example:**
 ```html
-<a href="https://venge.io/">Venge</a>
+<a href="URL">link name</a>
 ```
 **_(2.1)_**
 # Image in HTML³
