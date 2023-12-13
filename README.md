@@ -3,7 +3,7 @@ HTML **(Hypertext Markup Language)** is a markup language used when creating web
 
 Yes, now that we have made the definition, we can move on to the software part. First of all, let's start with the basic elements, we will encounter these elements frequently.
 
-# Basis Elements¹
+# Basis Elements[¹](https://github.com/sheeshKAAN/HTML5/tree/main/Group-1)
 - ```<!DOCTYPE>``` : It is used to determine which version of HTML should be interpreted when interpreting the HTML page. All HTML pages begin with the ```<!DOCTYPE>``` definition. This definition represents the HTML version of the page.
   
 - ```<html>``` : It is the most basic tag of HTML and covers all other tags, that is, all other HTML tags must be written within the ```<html>``` tag.
