@@ -20,11 +20,11 @@ Yes, now that we have made the definition, we can move on to the software part. 
  
 - ```<h1>```: This tag used for headings is ```<h1> <h2>, <h3>``` etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between ```<h1>``` and ```<h6>```.
 
-# Tag Structure in HTML (1.1)
+# Tag Structure in HTML
 Tags are used when marking texts in HTML. And when defining tags, the tag name is written inside ```< less than and >``` greater than signs.
 That is, they are defined as ```<tagName>```. Additionally, opened tags are closed in the same way with **/** at the beginning.
 That is, it is defined as ```<tagName> .. </tagName>```. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
-You will understand and learn their distinction better in the following lessons, but to give a few examples of tags that cannot be closed, ```<img> <br> <hr> <meta>``` etc. we can say
+You will understand and learn their distinction better in the following lessons, but to give a few examples of tags that cannot be closed, ```<img> <br> <hr> <meta>``` etc. we can say _(1.1)_
 
 **Examples:**
 ```html
