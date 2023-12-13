@@ -80,7 +80,7 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
 **Editor:**
 ![Screenshot_2023-11-16-00-13-17-845-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f7dcff37-fd32-4f69-b1b2-e07d6b504eac)
 
-# Tags in HTML⁵
+# Tags in HTML
 Tags form the basis of HTML. Tags are predefined parts that we use when marking texts. So you cannot define a label yourself.
 
 **Example:**
@@ -104,7 +104,7 @@ The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and s
 <a href="https://venge.io/">venge</a>
 ```
 We used the linking tag here. So, when the prototurk text is clicked, we created a link that will go to prototurk.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
-# Attributes in HTML
+# Attributes in HTML⁵
 **One important thing in HTML is attributes**. Qualifiers are the parts used inside the labels and serve to fulfill the label's instructions. Attributes are generally used as ```attribute="value"```, but in some cases you may also see attributes without a value. Attribute values ​​must always be written in quotes.
 
 **Example:**
