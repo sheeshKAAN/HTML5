@@ -283,7 +283,7 @@ When an article is clicked on your web page, you need to close it or create a li
 ```html
 <a href="https://google.com/tr">go to google</a>
 ```
- **_(6.12)_**
+ **_(6.11)_**
  
 When you click on Go to Google here, you will go to **google.com.tr**. In this way, a link is made from one page to another page. 
 
