@@ -255,7 +255,7 @@ When you click on Go to Google here, you will go to **google.com.tr**. In this w
 
 As seen in the example, the href attribute is used to determine the address to go to when clicked. The ```<a>``` tag does not only contain the href attribute, it can be used with many other attributes.
 
-# Target Attribute in HTML
+# Target Attribute in HTML⁷
 Apart from href, there is also a target attribute. With this attribute, we determine how the connection will be opened. It has to take one of the following as the value;
 
 ```_self```: this is the default value, it opens in the current page.
