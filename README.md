@@ -26,7 +26,7 @@ That is, they are defined as ```<tagName>```. Additionally, opened tags are clos
 That is, it is defined as ```<tagName> .. </tagName>```. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
 You will understand and learn their distinction better in the following lessons, but to give a few examples of tags that cannot be closed, ```<img> <br> <hr> <meta>``` etc. we can say
 
-**Examples:** **_(1.1)_**
+**Examples:**
 ```html
 <p> paragraph </p>
 ```
@@ -36,39 +36,44 @@ You will understand and learn their distinction better in the following lessons,
 ```html
 <title> ... </title>
 ```
+**_(1.1)_**
 Everything is going well so far, now let's talk a little about the qualities.
 
 # Attribute Structure in HTML
 After creating the tags, it is necessary to examine the use of the attributes that make up the tags. You can think of attributes as the directives of tags. In other words, we define certain attributes to make the tag more functional. After opening the tag, we define the attribute as **key="value"**.
 
-**Example:** **_(1.2)_**
+**Example:**
 ```html
 <meta charset="UTF-8">
 ```
+**_(1.2)_**
 This example is both a self-closing label type and a combined label example, with the character set as the key and the UTF-8 value as the value. While some existing keys and values ​​represent certain things, some existing values ​​may be in an expression that you specify.
 
-**Example:** **_(1.3)_**
+**Example:**
 ```html
 <meta content="description" content="explanation...">
 ```
+**_(1.3)_**
 # Links in HTML²
 The <a> tag is used to link to an address in HTML. In this example, the href link is used to determine the address to go to when clicked. Attributes are used to specify more information about HTML tags.
 
-**Example:** **_(2.1)_**
+**Example:**
 ```html
 <a href="https://venge.io/">Venge</a>
 ```
+**_(2.1)_**
 # Image in HTML³
 The <img> tag is used to display images in HTML. If you remember, we mentioned that some tags close on their own, this tag is an example of them. Without attributes, the ```<img>``` tag won't display anything. In the ```<img>``` tag, **src=" "** is used to determine the image path, **alt=" "** is used for the alternative text that will appear if there is no image, **width=" "** and **height=" "** are used to adjust the width and height, and **title=" "** is used to create a description when hovered over.
 
-**Example:** **_(3.1)_**
+**Example:**
 ```html
 <img src="test.png" alt="Displayed when there is no picture." title="It only appears when you hover over this title." width="300" height="200">
 ```
+**_(3.1)_**
 # Listing in HTML⁴
 In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` tags.
 
-**Example:** **_(4.1)_**
+**Example:**
 ```html
 <ul>
     <li>apple</li>
@@ -76,47 +81,53 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
     <li>plum</li>
 </ul>
 ```
-
+**_(4.1)_**
 **Editor:**
 ![Screenshot_2023-11-16-00-13-17-845-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f7dcff37-fd32-4f69-b1b2-e07d6b504eac)
 
 # Tags in HTML
 Tags form the basis of HTML. Tags are predefined parts that we use when marking texts. So you cannot define a label yourself.
 
-**Example:** _(4.2)_
+**Example:**
 ```html
 <h1> ... </h1>
 ```
+**_(4.2)_**
 In some tags, we do not have to close the tags because they are self-closing tags. The structure of these tags is as follows;
 
-**Example:** _(4.3)_
+**Example:**
 ```html
 <img .../>
 ```
-Now let's define a real tag and see its usage. _(4.4)_
+ **_(4.3)_**
+Now let's define a real tag and see its usage.
 ```html
 <p> this is a paragraph tag </p>
 ```
+**_(4.4)_**
 The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and short texts in the ```<p>``` tag. Except for a few tags in HTML, tags are useless. In other words, they must be used in a qualified manner. What is quality? We will come to this topic in the next lesson.
 
-**Example:** _(4.5)_
+**Example:**
 ```html
 <a href="https://venge.io/">venge</a>
 ```
+ **_(4.5)_**
 We used the linking tag here. So, when the prototurk text is clicked, we created a link that will go to prototurk.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
 # Attributes in HTML⁵
 **One important thing in HTML is attributes**. Qualifiers are the parts used inside the labels and serve to fulfill the label's instructions. Attributes are generally used as ```attribute="value"```, but in some cases you may also see attributes without a value. Attribute values ​​must always be written in quotes.
 
-**Example:** **_(5.1)_**
+**Example:**
 ```html
 <label attribute1="value" attribute2="value"></label>
 ```
+**_(5.1)_**
 As you can see, they are defined as attribute="value". And a tag can take more than one attribute. Now let's examine it through a real example.
 
-**Example:** **_(5.2)_**
+**Example:**
 ```html
 <img src="test.png">
 ```
+**_(5.2)_**
 Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
 
 We will see what we have learned in more detail in the following sections, these are just preliminary information.
@@ -147,7 +158,7 @@ HTML has certain tags to format expressions, that is, to add new styles to them.
 
 Pretty simple right? :D 
 
-**Examples:** **_(6.1)_**
+**Examples:**
 ```html
 <p>
     This is <b>bold</b> text and this is <strong>important bold text.</strong> <br>
@@ -157,7 +168,7 @@ Pretty simple right? :D
     And finally, examples of the subscript H<sub>2</sub>O and m<sup>2</sup> can be given.
 </p>
 ```
-
+**_(6.1)_**
 **Editor:** 
 ![Screenshot_2023-11-16-00-15-25-167-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8ced6e1e-5417-4cf1-bff9-ffc23f7a5d1c)
 
@@ -165,92 +176,98 @@ Let's give more detailed information about these.
 # ```<b>``` and ```<strong>``` Tags 
 It thickens when visible on both labels. The difference between each other is that the ```<b>``` tag's markup only makes it bold, while the ```<strong>``` tag's markup both makes it bold and indicates that the text is an important text when interpreted by the browsers.
 
-**Example:** **_(6.2)_**
+**Example:** 
 ```html
 <b>Hello KAAN</b>
 <strong>Have are you?</strong>
 ```
+**_(6.2)_**
 # ```<i>``` and ```<em>``` Tags
 It is used for the slope of the text in both labels. The difference between them is that marking the ```<i>``` tag only shows italics, while marking the ```<em>``` tag both shows italics and indicates that that text is highlighted when interpreted by browsers.
 
-**Example:** **_(6.3)_**
+**Example:**
 ```html
 <i>italic writing</i>
 <em>eat, work, run, dance</em>
 ```
+**_(6.3)_**
 # ```<small>``` Tag 
 The ```<small>``` tag is used to make text smaller than it appears. Even if the text is written in capital letters, the text in this label appears smaller than the other letters.
 
-**Example:** **_(6.4)_**
+**Example:**
 ```html
 Can <small>this text appear smaller</small> when these texts are normal?
 ```
-
+**_(6.4)_**
 **Editor:**
 ![Screenshot_2023-11-16-00-17-01-335-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/1490eda6-50c3-496f-8443-9232d655b0f4)
 # ```<mark>``` Tag
 We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow pen.
 
-**Example:** **_(6.5)_**
+**Example:**
 ```html
 this text is normal<mark>this text is crossed out in yellow</mark>
 ```
-
+**_(6.5)_**
 **Editor:**
 ![Screenshot_2023-11-16-00-17-35-530-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/24d768ee-f903-48d0-9d41-c4eea683da4a)
 # ```<del>``` Tag
 We mark the strikethrough text with the ```<del>``` tag.
 
-**Example:** **_(6.6)_**
+**Example:**
 ```html
 Lemonade price <del> 1$ </del> 5$
 ```
-
+**_(6.6)_**
 **Editor:**
 ![Screenshot_2023-11-16-00-18-01-805-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/863779a8-b705-48fe-827d-3ee34fc7b2fd)
 # ```<ins>``` Tag
 The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del>```.
 
-**Example:** **_(6.7)_**
+**Example:** 
 ```html
 Lemonade price <del> 1$ </del> <ins> 5$ </ins>
 ```
-
+**_(6.7)_**
 **Editor:**
 ![Screenshot_2023-11-16-00-18-34-773-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/0ddeebe3-21b7-49b4-b8f0-80632ab2e8a3)
 # ```<sub>``` Tag 
 This tag is used to designate the text as a subscript. For example, when we say H2O, it would be correct to use the value 2 as a subscript.
 
-**Example:** **_(6.8)_**
+**Example:**
 ```html
 H<sub>2</sub>O
 ```
+**_(6.8)_**
 # ```<sup>``` Tag 
 This tag is used to designate the text as superscript. For example, when we say m2, it would be correct to use the value 2 as a superscript.
 
-**Example:** **_(6.9)_**
+**Example:**
 ```html
 m<sup>2</sup>
 ```
+**_(6.9)_**
 Now that we have detailed the tags a bit, we can move on to the comment lines. Comment lines will really come in handy.
 
 # Comment Lines in HTML 
 Comment lines are generally blocks written by the person who wrote the code as a reminder. Because comment lines are not visible to the end user, they can only be seen by looking at the source of the page. Therefore, remember that comments can be read by anyone. When defining, everything between the lines starting with ```<!--``` and ending with ```-->``` is perceived as a comment.
 
-**Example:** **_(6.10)_**
+**Example:**
 ```html
 <!-- I wrote a paragraph example here --> 
 <p> this is a paragraph </p>
 ```
+**_(6.10)_**
 In the example above, even if there is an ```<html>``` tag in the comment line, **it will not appear**.
 
 # Links in HTML
 When an article is clicked on your web page, you need to close it or create a link to another page or another file on another website. While doing this, we create it with the ```<a>``` tag in HTML.
 
-**Example:** **_(6.12)_**
+**Example:**
 ```html
 <a href="https://google.com/tr">go to google</a>
 ```
+ **_(6.12)_**
 When you click on Go to Google here, you will go to **google.com.tr**. In this way, a link is made from one page to another page. 
 
 As seen in the example, the href attribute is used to determine the address to go to when clicked. The ```<a>``` tag does not only contain the href attribute, it can be used with many other attributes.
@@ -264,10 +281,11 @@ Apart from href, there is also a target attribute. With this attribute, we deter
 
 ```iframeName```: opens the link within the specified iframe.
 
-**Example:** **_(7.1)_**
+**Example:**
 ```html
 <a href="https://venge.io/" target="_blank">Venge</a>
 ```
+**_(7.1)_**
 When clicked, Venge will open in a new tab. There is also the option to open within iframes. Let's give him an **example:**
 ```html
 <p> Click <a href="https://venge.io/" target="browser">to open Venge!
