@@ -20,7 +20,7 @@ Yes, now that we have made the definition, we can move on to the software part. 
  
 - ```<h1>```: This tag used for headings is ```<h1> <h2>, <h3>``` etc. It can be numbered as follows, and as the number increases, the size of the text decreases. The numbers are between ```<h1>``` and ```<h6>```.
 
-# Tag Structure in HTML¹'¹
+# Tag Structure in HTML
 Tags are used when marking texts in HTML. And when defining tags, the tag name is written inside ```< less than and >``` greater than signs.
 That is, they are defined as ```<tagName>```. Additionally, opened tags are closed in the same way with **/** at the beginning.
 That is, it is defined as ```<tagName> .. </tagName>```. However, this rule does not apply to all tags; some tags are closed by themselves, so you do not need to close them.
@@ -58,7 +58,7 @@ The <a> tag is used to link to an address in HTML. In this example, the href lin
 ```html
 <a href="https://venge.io/">Venge</a>
 ```
-# Image in HTML
+# Image in HTML³
 The <img> tag is used to display images in HTML. If you remember, we mentioned that some tags close on their own, this tag is an example of them. Without attributes, the ```<img>``` tag won't display anything. In the ```<img>``` tag, **src=" "** is used to determine the image path, **alt=" "** is used for the alternative text that will appear if there is no image, **width=" "** and **height=" "** are used to adjust the width and height, and **title=" "** is used to create a description when hovered over.
 
 **Example:**
