@@ -84,6 +84,7 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
 </ul>
 ```
 **_(4.1)_**
+
 **Editor:**
 ![Screenshot_2023-11-16-00-13-17-845-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f7dcff37-fd32-4f69-b1b2-e07d6b504eac)
 
@@ -177,6 +178,7 @@ Pretty simple right? :D
 </p>
 ```
 **_(6.1)_**
+
 **Editor:** 
 ![Screenshot_2023-11-16-00-15-25-167-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8ced6e1e-5417-4cf1-bff9-ffc23f7a5d1c)
 
@@ -207,6 +209,7 @@ The ```<small>``` tag is used to make text smaller than it appears. Even if the 
 Can <small>this text appear smaller</small> when these texts are normal?
 ```
 **_(6.4)_**
+
 **Editor:**
 ![Screenshot_2023-11-16-00-17-01-335-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/1490eda6-50c3-496f-8443-9232d655b0f4)
 # ```<mark>``` Tag
@@ -217,6 +220,7 @@ We use the ```<mark>``` tag in HTML to draw and highlight the text with a yellow
 this text is normal<mark>this text is crossed out in yellow</mark>
 ```
 **_(6.5)_**
+
 **Editor:**
 ![Screenshot_2023-11-16-00-17-35-530-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/24d768ee-f903-48d0-9d41-c4eea683da4a)
 # ```<del>``` Tag
@@ -227,6 +231,7 @@ We mark the strikethrough text with the ```<del>``` tag.
 Lemonade price <del> 1$ </del> 5$
 ```
 **_(6.6)_**
+
 **Editor:**
 ![Screenshot_2023-11-16-00-18-01-805-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/863779a8-b705-48fe-827d-3ee34fc7b2fd)
 # ```<ins>``` Tag
@@ -237,6 +242,7 @@ The ```<ins>``` tag is used when adding new posts to deleted posts using ```<del
 Lemonade price <del> 1$ </del> <ins> 5$ </ins>
 ```
 **_(6.7)_**
+
 **Editor:**
 ![Screenshot_2023-11-16-00-18-34-773-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/0ddeebe3-21b7-49b4-b8f0-80632ab2e8a3)
 # ```<sub>``` Tag 
