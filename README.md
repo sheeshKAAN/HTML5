@@ -36,7 +36,7 @@ You will understand and learn their distinction better in the following lessons,
 ```html
 <title> ... </title>
 ```
-**_(1.1)_**
+[**_(1.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
 
 Everything is going well so far, now let's talk a little about the qualities.
 
@@ -47,7 +47,7 @@ After creating the tags, it is necessary to examine the use of the attributes th
 ```html
 <meta charset="UTF-8">
 ```
-**_(1.2)_**
+[**_(1.2)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
 
 This example is both a self-closing label type and a combined label example, with the character set as the key and the UTF-8 value as the value. While some existing keys and values ​​represent certain things, some existing values ​​may be in an expression that you specify.
 
@@ -55,7 +55,7 @@ This example is both a self-closing label type and a combined label example, wit
 ```html
 <meta content="description" content="explanation...">
 ```
-**_(1.3)_**
+[**_(1.3)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
 # Links in HTML[²](https://github.com/sheeshKAAN/HTML5/tree/main/Group-2)
 The <a> tag is used to link to an address in HTML. In this example, the href link is used to determine the address to go to when clicked. Attributes are used to specify more information about HTML tags.
 
