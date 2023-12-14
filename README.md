@@ -115,11 +115,11 @@ The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and s
 
 **Example:**
 ```html
-<a href="https://venge.io/">venge</a>
+<a href="https://store.steampowered.com/">Steam</a>
 ```
  **_(4.5)_**
  
-We used the linking tag here. So, when the prototurk text is clicked, we created a link that will go to prototurk.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
+We used the linking tag here. So, when the steam text is clicked, we created a link that will go to https://store.steampowered.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
 # Attributes in HTML⁵
 **One important thing in HTML is attributes**. Qualifiers are the parts used inside the labels and serve to fulfill the label's instructions. Attributes are generally used as ```attribute="value"```, but in some cases you may also see attributes without a value. Attribute values ​​must always be written in quotes.
 
