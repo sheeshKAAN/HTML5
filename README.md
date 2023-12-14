@@ -64,14 +64,14 @@ The <a> tag is used to link to an address in HTML. In this example, the href lin
 <a href="URL">link name</a>
 ```
 [**_(2.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-2/(2.1).html)
-# Image in HTML³
+# Image in HTML[³](https://github.com/sheeshKAAN/HTML5/tree/main/Group-3)
 The <img> tag is used to display images in HTML. If you remember, we mentioned that some tags close on their own, this tag is an example of them. Without attributes, the ```<img>``` tag won't display anything. In the ```<img>``` tag, **src=" "** is used to determine the image path, **alt=" "** is used for the alternative text that will appear if there is no image, **width=" "** and **height=" "** are used to adjust the width and height, and **title=" "** is used to create a description when hovered over.
 
 **Example:**
 ```html
 <img src="test.png" alt="Displayed when there is no picture." title="It only appears when you hover over this title." width="300" height="200">
 ```
-**_(3.1)_**
+[**_(3.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-3/(3.1).html)
 # Listing in HTML⁴
 In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` tags.
 
@@ -115,11 +115,11 @@ The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and s
 
 **Example:**
 ```html
-<a href="https://venge.io/">venge</a>
+<a href="https://store.steampowered.com/">Steam</a>
 ```
  **_(4.5)_**
  
-We used the linking tag here. So, when the prototurk text is clicked, we created a link that will go to prototurk.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
+We used the linking tag here. So, when the steam text is clicked, we created a link that will go to https://store.steampowered.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
 # Attributes in HTML⁵
 **One important thing in HTML is attributes**. Qualifiers are the parts used inside the labels and serve to fulfill the label's instructions. Attributes are generally used as ```attribute="value"```, but in some cases you may also see attributes without a value. Attribute values ​​must always be written in quotes.
 
