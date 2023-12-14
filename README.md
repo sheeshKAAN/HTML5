@@ -3,7 +3,7 @@ HTML **(Hypertext Markup Language)** is a markup language used when creating web
 
 Yes, now that we have made the definition, we can move on to the software part. First of all, let's start with the basic elements, we will encounter these elements frequently.
 
-# Basis Elements¹
+# Basis Elements[¹](https://github.com/sheeshKAAN/HTML5/tree/main/Group-1)
 - ```<!DOCTYPE>``` : It is used to determine which version of HTML should be interpreted when interpreting the HTML page. All HTML pages begin with the ```<!DOCTYPE>``` definition. This definition represents the HTML version of the page.
   
 - ```<html>``` : It is the most basic tag of HTML and covers all other tags, that is, all other HTML tags must be written within the ```<html>``` tag.
@@ -36,7 +36,7 @@ You will understand and learn their distinction better in the following lessons,
 ```html
 <title> ... </title>
 ```
-**_(1.1)_**
+[**_(1.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
 
 Everything is going well so far, now let's talk a little about the qualities.
 
@@ -47,7 +47,7 @@ After creating the tags, it is necessary to examine the use of the attributes th
 ```html
 <meta charset="UTF-8">
 ```
-**_(1.2)_**
+[**_(1.2)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
 
 This example is both a self-closing label type and a combined label example, with the character set as the key and the UTF-8 value as the value. While some existing keys and values ​​represent certain things, some existing values ​​may be in an expression that you specify.
 
@@ -55,15 +55,15 @@ This example is both a self-closing label type and a combined label example, wit
 ```html
 <meta content="description" content="explanation...">
 ```
-**_(1.3)_**
-# Links in HTML²
+[**_(1.3)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-1/(1.1%2C2%2C3).html)
+# Links in HTML[²](https://github.com/sheeshKAAN/HTML5/tree/main/Group-2)
 The <a> tag is used to link to an address in HTML. In this example, the href link is used to determine the address to go to when clicked. Attributes are used to specify more information about HTML tags.
 
 **Example:**
 ```html
 <a href="URL">link name</a>
 ```
-**_(2.1)_**
+[**_(2.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-2/(2.1).html)
 # Image in HTML³
 The <img> tag is used to display images in HTML. If you remember, we mentioned that some tags close on their own, this tag is an example of them. Without attributes, the ```<img>``` tag won't display anything. In the ```<img>``` tag, **src=" "** is used to determine the image path, **alt=" "** is used for the alternative text that will appear if there is no image, **width=" "** and **height=" "** are used to adjust the width and height, and **title=" "** is used to create a description when hovered over.
 
