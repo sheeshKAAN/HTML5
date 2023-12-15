@@ -72,7 +72,7 @@ The <img> tag is used to display images in HTML. If you remember, we mentioned t
 <img src="test.png" alt="Displayed when there is no picture." title="It only appears when you hover over this title." width="300" height="200">
 ```
 [**_(3.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-3/(3.1).html)
-# Listing in HTML⁴
+# Listing in HTML[⁴](https://github.com/sheeshKAAN/HTML5/tree/main/Group-4)
 In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` tags.
 
 **Example:**
@@ -83,7 +83,7 @@ In HTML, lists are located within ```<li>``` between ```<ul>``` and ```<ol>``` t
     <li>plum</li>
 </ul>
 ```
-**_(4.1)_**
+[**_(4.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-4/(4.1).html)
 
 **Editor:**
 ![Screenshot_2023-11-16-00-13-17-845-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/f7dcff37-fd32-4f69-b1b2-e07d6b504eac)
@@ -95,7 +95,7 @@ Tags form the basis of HTML. Tags are predefined parts that we use when marking 
 ```html
 <h1> ... </h1>
 ```
-**_(4.2)_**
+[**_(4.2)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-4/(4.2-3-4-5).html)
 
 In some tags, we do not have to close the tags because they are self-closing tags. The structure of these tags is as follows;
 
@@ -103,13 +103,13 @@ In some tags, we do not have to close the tags because they are self-closing tag
 ```html
 <img .../>
 ```
- **_(4.3)_**
+ [**_(4.3)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-4/(4.2-3-4-5).html)
  
 Now let's define a real tag and see its usage.
 ```html
 <p> this is a paragraph tag </p>
 ```
-**_(4.4)_**
+[**_(4.4)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-4/(4.2-3-4-5).html)
 
 The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and short texts in the ```<p>``` tag. Except for a few tags in HTML, tags are useless. In other words, they must be used in a qualified manner. What is quality? We will come to this topic in the next lesson.
 
@@ -117,7 +117,7 @@ The ```<p>``` tag is the tag used to mark paragraphs. You can enclose long and s
 ```html
 <a href="https://store.steampowered.com/">Steam</a>
 ```
- **_(4.5)_**
+ [**_(4.5)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-4/(4.2-3-4-5).html)
  
 We used the linking tag here. So, when the steam text is clicked, we created a link that will go to https://store.steampowered.com. And using the ```<a>``` tag without qualifications here will not yield any results. In other words, we use attributes, as in this example, to make certain directives. Here href is the attribute of this tag and takes the address of the link to be navigated as value.
 # Attributes in HTML⁵
