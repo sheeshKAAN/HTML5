@@ -140,7 +140,7 @@ Here, the ```<img>``` tag means nothing without the src attribute. By specifying
 We will see what we have learned in more detail in the following sections, these are just preliminary information.
 Now let's take a look at the other tags.
 
-# Text Formatting Tags in HTML⁶
+# Text Formatting Tags in HTML[⁶](https://github.com/sheeshKAAN/HTML5/tree/main/Group-6)
 HTML has certain tags to format expressions, that is, to add new styles to them. List of them;
 
 ```<b>``` - Bold text
@@ -175,7 +175,7 @@ Pretty simple right? :D
     And finally, examples of the subscript H<sub>2</sub>O and m<sup>2</sup> can be given.
 </p>
 ```
-**_(6.1)_**
+[**_(6.1)_**](https://github.com/sheeshKAAN/HTML5/blob/main/Group-6/(6.1).html)
 
 **Editor:** 
 ![Screenshot_2023-11-16-00-15-25-167-edit_com.codeliber.html.jpg](https://github.com/sheeshKAAN/HTML5-learning-guide./assets/132504490/8ced6e1e-5417-4cf1-bff9-ffc23f7a5d1c)
