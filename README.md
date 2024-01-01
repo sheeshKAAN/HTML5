@@ -140,7 +140,7 @@ Here, the ```<img>``` tag means nothing without the src attribute. By specifying
 We will see what we have learned in more detail in the following sections, these are just preliminary information.
 Now let's take a look at the other tags.
 
-# Text Formatting Tags in HTML⁶
+# Text Formatting Tags in HTML[⁶](https://github.com/sheeshKAAN/HTML5/tree/main/Group-6)
 HTML has certain tags to format expressions, that is, to add new styles to them. List of them;
 
 ```<b>``` - Bold text
