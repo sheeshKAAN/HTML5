@@ -127,7 +127,6 @@ We used the linking tag here. So, when the steam text is clicked, we created a l
 ```html
 <label attribute1="value" attribute2="value"></label>
 ```
-**_(5.1)_**
 
 As you can see, they are defined as attribute="value". And a tag can take more than one attribute. Now let's examine it through a real example.
 
@@ -135,7 +134,6 @@ As you can see, they are defined as attribute="value". And a tag can take more t
 ```html
 <img src="test.png">
 ```
-**_(5.2)_**
 
 Here, the ```<img>``` tag means nothing without the src attribute. By specifying the path of the image with src, we make it appear on the screen. For this reason, you can always consider tags and attributes.
 
